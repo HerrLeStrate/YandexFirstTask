@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                         ViewGroup.LayoutParams.WRAP_CONTENT
                 )
         );
-        textViewName.setText("\nEgor Letov\nherrlestrate");
+        textViewName.setText("\nArtyom Kadushko\nherrlestrate");
         textViewName.setTextSize(TypedValue.COMPLEX_UNIT_DIP,50);
 
 
