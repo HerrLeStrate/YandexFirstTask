@@ -47,7 +47,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.config
-            ext.betaDistributionGroupAliases = 'HerrLeStrate Application'
+            ext.betaDistributionGroupAliases = 'Testers'
         }
     }
 }
