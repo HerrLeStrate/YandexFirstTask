@@ -1,0 +1,224 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7d3c0569977487e1a5de87cce38c2fb0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\06f0f0be38e829372706193bbcc70f01\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\7f9d07ccf8ba51072e2a515a59a1f5ec\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\1d3623d0d80a392a63e4f755e9d577fd\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:22:1-33:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4b7ae5a8dc2a99444383434593df6919\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\575c715aa924c49156c57f620cf492c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\1d35753ee6fc275fd33de3283cf8ac61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\de3b69ba641696552f3016d06fc7e697\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ade7de2a890a161a497ccff7e5889327\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d908614f5985e9ff4e204f271ab298f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2ec53f2ac56a023d10eb4971e0864217\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\08d0fab4d62ab68f1ccf945abb3763dc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\7c597a5125724ba0f09a0be783cc1cf7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\1fdd1f375b6603dcb87849548f0fcfab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\4172378ad0ed39f5c2bfd3d2814656b4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f5085b9a5f5e1f104e0c67091463e4ca\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\51824bb214bd78e387beab4bf7071643\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e7cfc63f506dbf0e7b0a3d30ffbb9ae5\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c15821d38091758ab336925684680cf\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7a91198ae5a5a217b58c65fdc27eecc5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\23717cc78e4b3e57d9e681f7a42e3562\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6c5be3de942082187f6fad9c6fa5c641\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\01bdbc20468fa708fc876cff96e5a1fa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\47cf93a04c0341564e0c6e13c3cd0103\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3bd48a6b27bf3d9783e01af23ed7a6dd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e16e4f2a503fcd923195e1692a30e843\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a78a9640454c1b2b590cf551ae3796b8\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3cf272c4d34d7cb5fbdf65bf2f1e402d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0a6a6cca0c4a4b05a6fedd4835efbfd8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:2:1-14:12
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+	package
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:1-25:12
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\06f0f0be38e829372706193bbcc70f01\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\06f0f0be38e829372706193bbcc70f01\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e7cfc63f506dbf0e7b0a3d30ffbb9ae5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e7cfc63f506dbf0e7b0a3d30ffbb9ae5\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c15821d38091758ab336925684680cf\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c15821d38091758ab336925684680cf\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e7cfc63f506dbf0e7b0a3d30ffbb9ae5\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:11:9-40
+activity#me.herrlestrate.herrlestrateapplication.MainActivity
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:16:27-74
+meta-data#io.fabric.ApiKey
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:19:9-22:15
+	android:value
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:20:13-44
+uses-permission#android.permission.INTERNET
+ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:29:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:11:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml:24:22-64
+uses-sdk
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7d3c0569977487e1a5de87cce38c2fb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\7d3c0569977487e1a5de87cce38c2fb0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\06f0f0be38e829372706193bbcc70f01\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\06f0f0be38e829372706193bbcc70f01\AndroidManifest.xml:5:5-7:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\7f9d07ccf8ba51072e2a515a59a1f5ec\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\7f9d07ccf8ba51072e2a515a59a1f5ec\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\1d3623d0d80a392a63e4f755e9d577fd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\1d3623d0d80a392a63e4f755e9d577fd\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\03aa2064907187d390d9e0571212938b\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\5f1f7549674c848da4e87f9c87f2cd72\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\b7a79049e54adf9470bac2a1ee72b608\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\60651c264633508ee0efc4951929317a\AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4b7ae5a8dc2a99444383434593df6919\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\4b7ae5a8dc2a99444383434593df6919\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\575c715aa924c49156c57f620cf492c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\575c715aa924c49156c57f620cf492c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\1d35753ee6fc275fd33de3283cf8ac61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\1d35753ee6fc275fd33de3283cf8ac61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\de3b69ba641696552f3016d06fc7e697\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\de3b69ba641696552f3016d06fc7e697\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ade7de2a890a161a497ccff7e5889327\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\ade7de2a890a161a497ccff7e5889327\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d908614f5985e9ff4e204f271ab298f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\4d908614f5985e9ff4e204f271ab298f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2ec53f2ac56a023d10eb4971e0864217\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\2ec53f2ac56a023d10eb4971e0864217\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\08d0fab4d62ab68f1ccf945abb3763dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\08d0fab4d62ab68f1ccf945abb3763dc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\7c597a5125724ba0f09a0be783cc1cf7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\7c597a5125724ba0f09a0be783cc1cf7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\1fdd1f375b6603dcb87849548f0fcfab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\1fdd1f375b6603dcb87849548f0fcfab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\4172378ad0ed39f5c2bfd3d2814656b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\4172378ad0ed39f5c2bfd3d2814656b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f5085b9a5f5e1f104e0c67091463e4ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f5085b9a5f5e1f104e0c67091463e4ca\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\51824bb214bd78e387beab4bf7071643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\51824bb214bd78e387beab4bf7071643\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e7cfc63f506dbf0e7b0a3d30ffbb9ae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\e7cfc63f506dbf0e7b0a3d30ffbb9ae5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c15821d38091758ab336925684680cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\9c15821d38091758ab336925684680cf\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7a91198ae5a5a217b58c65fdc27eecc5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\7a91198ae5a5a217b58c65fdc27eecc5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\23717cc78e4b3e57d9e681f7a42e3562\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\23717cc78e4b3e57d9e681f7a42e3562\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6c5be3de942082187f6fad9c6fa5c641\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\6c5be3de942082187f6fad9c6fa5c641\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\01bdbc20468fa708fc876cff96e5a1fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\01bdbc20468fa708fc876cff96e5a1fa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\47cf93a04c0341564e0c6e13c3cd0103\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\47cf93a04c0341564e0c6e13c3cd0103\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3bd48a6b27bf3d9783e01af23ed7a6dd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3bd48a6b27bf3d9783e01af23ed7a6dd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e16e4f2a503fcd923195e1692a30e843\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\e16e4f2a503fcd923195e1692a30e843\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a78a9640454c1b2b590cf551ae3796b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\a78a9640454c1b2b590cf551ae3796b8\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3cf272c4d34d7cb5fbdf65bf2f1e402d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\3cf272c4d34d7cb5fbdf65bf2f1e402d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0a6a6cca0c4a4b05a6fedd4835efbfd8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\0a6a6cca0c4a4b05a6fedd4835efbfd8\AndroidManifest.xml:20:5-44
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+		INJECTED from F:\JavaProjects\HerrLeStrate_Application\app\src\main\AndroidManifest.xml
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d483d52ead7688748e62ec7afbc40c3b\AndroidManifest.xml:13:13-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Syd Note\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\f54ca1a22513e965a9a86ce0a0494e38\AndroidManifest.xml:12:22-76
