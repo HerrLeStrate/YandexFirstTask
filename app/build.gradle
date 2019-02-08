@@ -47,7 +47,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.config
-            ext.betaDistributionGroupAliases = 'Kadushko_Artyom_Testers'
+            ext.betaDistributionGroupAliases = 'kadushko_artyom_testers'
         }
     }
 }
