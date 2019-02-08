@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed Feb 06 00:39:28 MSK 2019
+#Fri Feb 08 18:54:42 MSK 2019
 1.base=F\:\\JavaProjects\\HerrLeStrate_Application\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

@@ -38,8 +38,8 @@ android {
         applicationId "me.herrlestrate.herrlestrateapplication"
         minSdkVersion 22
         targetSdkVersion 28
-        versionCode 1
-        versionName "1.0"
+        versionCode 2
+        versionName "1.5"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -47,7 +47,7 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.config
-            ext.betaDistributionGroupAliases = 'Testers'
+            ext.betaDistributionGroupAliases = 'Kadushko_Artyom_Testers'
         }
     }
 }
