@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.herrlestrate.herrlestrateapplication">
+    package="me.herrlestrate.kadushko_artyom_info">
 
     <application
         android:allowBackup="true"
@@ -22,4 +22,5 @@
             />
     </application>
     <uses-permission android:name="android.permission.INTERNET" />
+
 </manifest>
