@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Kadushko_Artyom_Info</string>
+    <string name="artyom_kadushko">Artyom Kadushko</string>
+    <string name="herrlestrate">HerrLeStrate</string>
 </resources>
