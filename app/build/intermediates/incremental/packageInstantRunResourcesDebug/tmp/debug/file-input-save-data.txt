@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Feb 15 13:37:12 MSK 2019
+0.baseType=DIRECTORY
+0.base=F\:\\JavaProjects\\Yandex\\Kadushko_Artyom_Info\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
+0.path=crashlytics-build.properties
+0.set=ASSET
+count=1
