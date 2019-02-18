@@ -1,4 +1,0 @@
-#Fri Feb 08 19:11:56 MSK 2019
-base.0=F\:\\JavaProjects\\HerrLeStrate_Application\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\out
-path.0=classes.dex
-renamed.0=classes.dex

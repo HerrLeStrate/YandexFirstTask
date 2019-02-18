@@ -35,7 +35,7 @@ android {
     }
     compileSdkVersion 28
     defaultConfig {
-        applicationId "me.herrlestrate.herrlestrateapplication"
+        applicationId "me.herrlestrate.kadushko_artyom_info"
         minSdkVersion 22
         targetSdkVersion 28
         versionCode 2
