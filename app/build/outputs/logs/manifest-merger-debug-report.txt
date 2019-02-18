@@ -1,0 +1,224 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8a5d701ec724f993f17392d8dd4f4fd3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\977028a8c62c5634a24c3eb87f54c345\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\85a86c70c780900a80ddeab7979722b9\AndroidManifest.xml:2:1-11:12
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\a1b6ad21054054a4629f0d367d670aa5\AndroidManifest.xml:2:1-11:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:22:1-33:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\261d7b85662027a525180ee4bc9887d2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad45e0facbf965d268a6c8a8ccff4db0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f820929d72d3d1bc9afb1f744036c328\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\fac46a8b3371b53bf7dfe424f860656f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\45f1b8897de7e969cfe1e23656f7e839\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e306b92dfa4de7f20bad0fbd5b78e35d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0cd71697ad6ef69fef8dd4f963893a44\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\271bf4055af064a5a13b3b7ed0b8ced0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\3bef3f03869519ed70809f72aaea89e4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\aaf01698830ba9adeb343dd641f43e16\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\10645f028b2d57db022c7e2f235fb5ae\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\bb479420e91fbf55adb4430904e835b7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\afe0b0af96b33387a19b9367e37ded69\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0964a41a1edaea773675067ab7c7d90d\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c820bbf4743f399c5c179429bcdebc8a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\66887408441ca933b7fa806dc6f8af70\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\289c70a8dd77bfe532c37f6e88d5c258\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\33741cf5fe7a4cf469134e5afc9f80f3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fb536ab0e4436e5d766cbea8cdd8df51\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\818c238243fe09539ed554299abccec4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3147c143293c8ba46af59803e198789a\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\04bc2675606f7f72aedc92ab0eb57c49\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\49a8a5c16831bf599c9ef15b9bd739c3\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b043cf66928f2952858f79fc5ad11901\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9fc86ec2812e634c39a3aca3122f1858\AndroidManifest.xml:17:1-22:12
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:2:1-14:12
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:1-26:12
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:5:5-23:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:11:5-17:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\977028a8c62c5634a24c3eb87f54c345\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\977028a8c62c5634a24c3eb87f54c345\AndroidManifest.xml:9:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0964a41a1edaea773675067ab7c7d90d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0964a41a1edaea773675067ab7c7d90d\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c820bbf4743f399c5c179429bcdebc8a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c820bbf4743f399c5c179429bcdebc8a\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0964a41a1edaea773675067ab7c7d90d\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:11:9-40
+activity#me.herrlestrate.kadushko_artyom_info.MainActivity
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:16:27-74
+meta-data#io.fabric.ApiKey
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:19:9-22:15
+	android:value
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:21:13-69
+	android:name
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:20:13-44
+uses-permission#android.permission.INTERNET
+ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:24:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:29:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:11:5-67
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml:24:22-64
+uses-sdk
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8a5d701ec724f993f17392d8dd4f4fd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\8a5d701ec724f993f17392d8dd4f4fd3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\977028a8c62c5634a24c3eb87f54c345\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\977028a8c62c5634a24c3eb87f54c345\AndroidManifest.xml:5:5-7:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\85a86c70c780900a80ddeab7979722b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\85a86c70c780900a80ddeab7979722b9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\a1b6ad21054054a4629f0d367d670aa5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\a1b6ad21054054a4629f0d367d670aa5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\1a1bae236af7a5c74ecfb86ce096bc66\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.6.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-core-2.6.7.aar\c4a1b20382f9e7ae423a2adf530c38c9\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.6] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\answers-1.4.6.aar\d603b9d487dc3c42e862b81c4f3d121f\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\fabric-1.4.7.aar\5342a62f8d860913d30510a6ccd7347d\AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\261d7b85662027a525180ee4bc9887d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\261d7b85662027a525180ee4bc9887d2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad45e0facbf965d268a6c8a8ccff4db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\ad45e0facbf965d268a6c8a8ccff4db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f820929d72d3d1bc9afb1f744036c328\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\f820929d72d3d1bc9afb1f744036c328\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\fac46a8b3371b53bf7dfe424f860656f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\fac46a8b3371b53bf7dfe424f860656f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\45f1b8897de7e969cfe1e23656f7e839\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\45f1b8897de7e969cfe1e23656f7e839\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e306b92dfa4de7f20bad0fbd5b78e35d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\e306b92dfa4de7f20bad0fbd5b78e35d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0cd71697ad6ef69fef8dd4f963893a44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\0cd71697ad6ef69fef8dd4f963893a44\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\271bf4055af064a5a13b3b7ed0b8ced0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\271bf4055af064a5a13b3b7ed0b8ced0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\3bef3f03869519ed70809f72aaea89e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\3bef3f03869519ed70809f72aaea89e4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\aaf01698830ba9adeb343dd641f43e16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\aaf01698830ba9adeb343dd641f43e16\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\10645f028b2d57db022c7e2f235fb5ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\10645f028b2d57db022c7e2f235fb5ae\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\bb479420e91fbf55adb4430904e835b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\bb479420e91fbf55adb4430904e835b7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\afe0b0af96b33387a19b9367e37ded69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\afe0b0af96b33387a19b9367e37ded69\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0964a41a1edaea773675067ab7c7d90d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\0964a41a1edaea773675067ab7c7d90d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c820bbf4743f399c5c179429bcdebc8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\c820bbf4743f399c5c179429bcdebc8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\66887408441ca933b7fa806dc6f8af70\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\66887408441ca933b7fa806dc6f8af70\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\289c70a8dd77bfe532c37f6e88d5c258\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\289c70a8dd77bfe532c37f6e88d5c258\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\33741cf5fe7a4cf469134e5afc9f80f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\33741cf5fe7a4cf469134e5afc9f80f3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fb536ab0e4436e5d766cbea8cdd8df51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\fb536ab0e4436e5d766cbea8cdd8df51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\818c238243fe09539ed554299abccec4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\818c238243fe09539ed554299abccec4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3147c143293c8ba46af59803e198789a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\3147c143293c8ba46af59803e198789a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\04bc2675606f7f72aedc92ab0eb57c49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\04bc2675606f7f72aedc92ab0eb57c49\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\49a8a5c16831bf599c9ef15b9bd739c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\49a8a5c16831bf599c9ef15b9bd739c3\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b043cf66928f2952858f79fc5ad11901\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\b043cf66928f2952858f79fc5ad11901\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9fc86ec2812e634c39a3aca3122f1858\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\9fc86ec2812e634c39a3aca3122f1858\AndroidManifest.xml:20:5-44
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:7:5-9:41
+MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:7:5-9:41
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		ADDED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+		INJECTED from F:\JavaProjects\Yandex\Kadushko_Artyom_Info\app\src\main\AndroidManifest.xml
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:12:9-16:38
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:16:13-35
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\7725a6b5d29b050af2e5edd8e644c0dd\AndroidManifest.xml:13:13-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\Артем\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\06cb96391bf061978abbebf7580520ad\AndroidManifest.xml:12:22-76
