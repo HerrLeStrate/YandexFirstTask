@@ -1,4 +1,4 @@
-#Fri Feb 15 13:30:36 MSK 2019
-base.0=F\:\\JavaProjects\\Yandex\\Kadushko_Artyom_Info\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
+#Fri Feb 22 09:50:29 MSK 2019
+base.0=F\:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\8
 path.0=classes.dex
 renamed.0=classes.dex
