@@ -2,4 +2,13 @@
     <string name="app_name">Kadushko_Artyom_Info</string>
     <string name="artyom_kadushko">Artyom Kadushko</string>
     <string name="herrlestrate">HerrLeStrate</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="welcome_info">Панки хой</string>
+    <string name="welcome_page_desc">This is default description for app</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
 </resources>

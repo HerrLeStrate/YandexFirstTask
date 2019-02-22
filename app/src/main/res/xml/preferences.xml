@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="alreadyRunned"
+        android:title="Skip welcome page"/>
+    <CheckBoxPreference
+        android:key="theme"
+        android:title="Dark theme"/>
+    <CheckBoxPreference
+        android:key="style"
+        android:title="Compact layout" />
+
+
+</PreferenceScreen>

@@ -21,13 +21,26 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="me.herrlestrate.kadushko_artyom_info.MainActivity" >
+        <activity android:name="me.herrlestrate.kadushko_artyom_info.WelcomeActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="me.herrlestrate.kadushko_artyom_info.LauncherActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver android:name="me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster" >
+            <intent-filter android:priority="666" >
+                <action android:name="android.intent.action.PACKAGE_INSTALL" />
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
 
         <meta-data
             android:name="io.fabric.ApiKey"
