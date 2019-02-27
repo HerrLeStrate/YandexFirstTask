@@ -975,6 +975,7 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen offset
 dimen preference_category_padding_start
 dimen preference_icon_minWidth
 dimen preference_no_icon_padding_start

@@ -29,11 +29,13 @@ public class GridLauncherFragment extends Fragment {
         View result = inflater.inflate(R.layout.activity_launcher,container,false);
 
         recyclerView = result.findViewById(R.id.icon_recycler_view);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(),getInRow());
+
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(),getInRow()));
 
         setupAdapter();
 
-        int offset = (getInRow()==5) ? 10 : 30;
+        int offset = getResources().getDimensionPixelOffset(R.dimen.offset);
         recyclerView.addItemDecoration(new LauncherItemDecoration(offset));
 
         return result;
