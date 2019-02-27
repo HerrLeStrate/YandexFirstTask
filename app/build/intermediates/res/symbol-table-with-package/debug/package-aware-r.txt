@@ -1457,6 +1457,7 @@ layout welcome_page_4
 menu activity_main_drawer
 menu popup
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string abc_action_bar_home_description
 string abc_action_bar_up_description
