@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\e4c26e9b088d14958e61225a11343fed\AndroidManifest.xml:2:1-19:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5f142b22392696b4985321892c3a778b\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:preference-v7:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\preference-v7-28.0.0.aar\53821c0411b24e7adafc0d47106207ad\AndroidManifest.xml:17:1-22:12
@@ -44,27 +44,27 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\User\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\45dc7459c7da09bc00035d84c6e7695c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\ee3ee3a626c5ab2c733056f98bb5ebc3\AndroidManifest.xml:17:1-22:12
 MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\ecf3574bfb02926fc0bd61c0059b66b0\AndroidManifest.xml:2:1-14:12
-INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
-INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
 	package
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:4:5-51
 		INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
 		INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-40:12
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-44:12
 		INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:6:5-36:19
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:6:5-40:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\e4c26e9b088d14958e61225a11343fed\AndroidManifest.xml:11:5-17:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\e4c26e9b088d14958e61225a11343fed\AndroidManifest.xml:11:5-17:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\5f142b22392696b4985321892c3a778b\AndroidManifest.xml:22:5-20
@@ -100,57 +100,69 @@ MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\User\.grad
 	android:theme
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:12:9-40
 activity#me.herrlestrate.kadushko_artyom_info.WelcomeActivity
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:14:9-20:20
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:14:9-24:20
+	android:stateNotNeeded
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:16:13-42
+	android:launchMode
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:15:13-48
 	android:name
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:14:19-50
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:16:13-19:29
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.DEFAULT+category:name:android.intent.category.HOME+category:name:android.intent.category.LAUNCHER
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:18:13-23:29
 action#android.intent.action.MAIN
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:17:17-69
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:17:25-66
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:20:27-74
+category#android.intent.category.HOME
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:21:17-72
+	android:name
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:21:27-70
+category#android.intent.category.DEFAULT
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:22:17-75
+	android:name
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:22:27-73
 activity#me.herrlestrate.kadushko_artyom_info.LauncherActivity
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:21:9-97
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:9-97
 	android:theme
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:21:52-95
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:52-95
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:21:19-51
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:19-51
 receiver#me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:22:9-30:20
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:23:13-51
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:27:13-51
 intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_INSTALL+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:24:13-29:29
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:28:13-33:29
 	android:priority
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:24:28-50
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:28:28-50
 action#android.intent.action.PACKAGE_INSTALL
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:17-79
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:29:17-79
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:25-77
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:29:25-77
 action#android.intent.action.PACKAGE_ADDED
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:26:25-75
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:30:25-75
 action#android.intent.action.PACKAGE_REMOVED
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:27:17-79
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:31:17-79
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:27:25-77
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:31:25-77
 data
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:28:17-49
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:32:17-49
 	android:scheme
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:28:23-47
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:32:23-47
 meta-data#io.fabric.ApiKey
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:32:9-35:15
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:36:9-39:15
 	android:value
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:34:13-69
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:38:13-69
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:33:13-44
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:37:13-44
 uses-permission#android.permission.INTERNET
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:37:5-38:40
+ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:41:5-42:40
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\e4c26e9b088d14958e61225a11343fed\AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\e4c26e9b088d14958e61225a11343fed\AndroidManifest.xml:9:5-67
 MERGED from [com.crashlytics.sdk.android:beta:1.2.10] C:\Users\User\.gradle\caches\transforms-1\files-1.1\beta-1.2.10.aar\02e18379247ce4dde8c539bf4ce54c42\AndroidManifest.xml:9:5-67
@@ -164,9 +176,9 @@ MERGED from [io.fabric.sdk.android:fabric:1.4.7] C:\Users\User\.gradle\caches\tr
 MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\ecf3574bfb02926fc0bd61c0059b66b0\AndroidManifest.xml:11:5-67
 MERGED from [com.microsoft.appcenter:appcenter:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-1.11.2.aar\ecf3574bfb02926fc0bd61c0059b66b0\AndroidManifest.xml:11:5-67
 	tools:ignore
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:38:9-37
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:42:9-37
 	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:37:22-64
+		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:41:22-64
 uses-sdk
 INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
