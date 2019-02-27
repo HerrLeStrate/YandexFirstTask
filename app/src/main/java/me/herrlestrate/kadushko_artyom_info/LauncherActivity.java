@@ -26,11 +26,11 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
 
         changeTheme();
 
+        Log.i("LauncherActivityE","onCreate "+Consts.getLastFragment());
+
         setContentView(R.layout.activity_nav_drawer);
 
         setStarted(true);
-
-
 
         printSavedInfo();
 
@@ -46,7 +46,7 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
             }
         });
 
-        onNavigationItemSelected(navigationView.getMenu().findItem(R.id.nav_grid));
+        onNavigationItemSelected(navigationView.getMenu().findItem(Consts.getLastFragment()));
 
     }
 
@@ -55,21 +55,25 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
         Log.i("LauncherActivity","Navigation Item ID: "+Integer.toString(id));
         switch(id){
             case R.id.nav_grid:
+                Consts.setLastFragment(R.id.nav_grid);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, GridLauncherFragment.newInstance())
                         .commit();
                 break;
             case R.id.nav_list:
+                Consts.setLastFragment(R.id.nav_list);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, LinearLauncherFragment.newInstance())
                         .commit();
                 break;
             case R.id.nav_settings:
+                Consts.setLastFragment(R.id.nav_settings);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, SettingsFragment.newInstance())
                         .commit();
                 break;
             case R.id.nav_none:
+                Consts.setLastFragment(R.id.nav_none);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, ProfilerFragment.newInstance())
                         .commit();

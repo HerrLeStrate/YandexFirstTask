@@ -1,4 +1,4 @@
-#Wed Feb 27 20:54:53 MSK 2019
+#Wed Feb 27 21:47:50 MSK 2019
 base.0=F\:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.0=classes.dex
 renamed.0=classes.dex
