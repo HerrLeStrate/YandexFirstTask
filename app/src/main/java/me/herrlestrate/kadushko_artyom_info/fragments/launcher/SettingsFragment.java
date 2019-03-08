@@ -20,6 +20,14 @@ public class SettingsFragment extends PreferenceFragmentCompat {
                 return true;
             }
         });
+        Preference sorting = findPreference("sort");
+        sorting.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object o) {
+                getActivity().recreate();
+                return true;
+            }
+        });
     }
 
     public static SettingsFragment newInstance(){

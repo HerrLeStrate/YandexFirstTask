@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sortMethodList">
+        <item>Без сортировки</item>
+        <item>Сортировать по названию</item>
+        <item>Сортировать по названию в обратном порядке</item>
+        <item>Сортировать по дате установки</item>
+        <item>Сортировать по количеству запусков</item>
+    </string-array>
+
+    <string-array name="sortMethodValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
