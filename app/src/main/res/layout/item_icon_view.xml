@@ -22,6 +22,6 @@
         android:maxLines="1"
         android:textAlignment="center"
 
-        tools:text="App title"/>
+        tools:text="@string/appTitle"/>
 
 </LinearLayout>

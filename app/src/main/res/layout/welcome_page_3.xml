@@ -17,14 +17,14 @@
             android:layout_height="200dp"
             android:background="@drawable/radiogroup"
             android:checked="true"
-            android:text="White Theme"/>
+            android:text="@string/choice_whiteTheme"/>
 
         <RadioButton
             android:id="@+id/dark_theme"
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:background="@drawable/radiogroup"
-            android:text="Dark theme"/>
+            android:text="@string/choice_darkTheme"/>
 
     </RadioGroup>
 

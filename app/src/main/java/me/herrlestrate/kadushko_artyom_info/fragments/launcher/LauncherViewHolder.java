@@ -91,7 +91,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
         });
 
         MenuItem launchCountMenu = popupMenu.getMenu().findItem(R.id.action_count_app_launches);
-        launchCountMenu.setTitle("Launched "+Consts.get(mResolveInfo.activityInfo.applicationInfo.packageName)+" times");
+        launchCountMenu.setTitle(v.getResources().getString(R.string.frequency)+Consts.get(mResolveInfo.activityInfo.applicationInfo.packageName));
         launchCountMenu.setEnabled(false);
         popupMenu.show();
         return true;

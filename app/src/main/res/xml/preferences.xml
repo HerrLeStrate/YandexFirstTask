@@ -3,17 +3,17 @@
 
     <SwitchPreference
         android:key="alreadyRunned"
-        android:title="Пропускать стартовую страницу"/>
+        android:title="@string/skipWelcomePage"/>
     <CheckBoxPreference
         android:key="theme"
-        android:title="Тёмная тема"/>
+        android:title="@string/darkTheme"/>
     <CheckBoxPreference
         android:key="style"
-        android:title="Компактный вид" />
+        android:title="@string/compactView" />
     <ListPreference
         android:key="sort"
         android:defaultValue="0"
-        android:title="Метод сортировки"
+        android:title="@string/method_sort"
         android:entries="@array/sortMethodList"
         android:entryValues="@array/sortMethodValues"/>
 
