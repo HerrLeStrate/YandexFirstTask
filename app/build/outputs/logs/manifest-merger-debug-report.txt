@@ -131,30 +131,6 @@ ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:52-95
 	android:name
 		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:25:19-51
-receiver#me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:26:9-34:20
-	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:27:13-51
-intent-filter#action:name:android.intent.action.PACKAGE_ADDED+action:name:android.intent.action.PACKAGE_INSTALL+action:name:android.intent.action.PACKAGE_REMOVED+data:scheme:package
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:28:13-33:29
-	android:priority
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:28:28-50
-action#android.intent.action.PACKAGE_INSTALL
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:29:17-79
-	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:29:25-77
-action#android.intent.action.PACKAGE_ADDED
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:30:17-77
-	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:30:25-75
-action#android.intent.action.PACKAGE_REMOVED
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:31:17-79
-	android:name
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:31:25-77
-data
-ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:32:17-49
-	android:scheme
-		ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:32:23-47
 meta-data#io.fabric.ApiKey
 ADDED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:36:9-39:15
 	android:value

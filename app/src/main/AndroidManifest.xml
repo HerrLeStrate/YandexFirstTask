@@ -23,7 +23,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LauncherActivity" android:theme="@style/AppTheme.NoActionBar"/>
-        <receiver
+        <!--<receiver
             android:name=".ApplicationBroadcaster">
             <intent-filter android:priority="666">
                 <action android:name="android.intent.action.PACKAGE_INSTALL"/>
@@ -31,7 +31,7 @@
                 <action android:name="android.intent.action.PACKAGE_REMOVED"/>
                 <data android:scheme="package"/>
             </intent-filter>
-        </receiver>
+        </receiver> -->
 
         <meta-data
             android:name="io.fabric.ApiKey"

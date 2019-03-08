@@ -37,7 +37,6 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
 
         Fabric.with(this, new Crashlytics());
         AppCenter.start(getApplication(), "7adff281-c7b5-4c1a-918e-f370ded917af", Analytics.class, Crashes.class);
-
         Consts.initSQL(getApplicationContext());
 
         setContentView(R.layout.activity_nav_drawer);

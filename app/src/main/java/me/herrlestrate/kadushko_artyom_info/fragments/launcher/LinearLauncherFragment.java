@@ -1,6 +1,7 @@
 package me.herrlestrate.kadushko_artyom_info.fragments.launcher;
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -19,12 +20,14 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
+import me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster;
 import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
 
 public class LinearLauncherFragment extends Fragment {
     private RecyclerView recyclerView;
     private SharedPreferences sharedPreferences;
+    private ApplicationBroadcaster applicationBroadcaster;
 
     public void onCreate(Bundle savedInstanceState){
         sharedPreferences = getActivity().getSharedPreferences("me.herrlestrate.kadushko_artyom_info_preferences",0);
@@ -38,8 +41,17 @@ public class LinearLauncherFragment extends Fragment {
 
         recyclerView = result.findViewById(R.id.linear_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+        applicationBroadcaster = new ApplicationBroadcaster(getContext(),recyclerView);
 
         setupAdapter();
+
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Intent.ACTION_PACKAGE_REMOVED);
+        filter.addAction(Intent.ACTION_PACKAGE_ADDED);
+
+        filter.addDataScheme("package");
+
+        getContext().registerReceiver(applicationBroadcaster, filter);
 
         return result;
 
@@ -96,10 +108,17 @@ public class LinearLauncherFragment extends Fragment {
                 break;
         }
 
-        recyclerView.setAdapter(new LinearRecyclerViewAdapter(activities,getActivity()));
+        recyclerView.setAdapter(new MyRecyclerViewAdapter(activities,getActivity(),false));
     }
 
     public static LinearLauncherFragment newInstance(){
         return new LinearLauncherFragment();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        getContext().unregisterReceiver(applicationBroadcaster);
+
     }
 }

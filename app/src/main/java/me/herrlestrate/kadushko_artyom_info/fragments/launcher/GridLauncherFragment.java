@@ -1,6 +1,7 @@
 package me.herrlestrate.kadushko_artyom_info.fragments.launcher;
 
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
@@ -18,6 +19,7 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
+import me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster;
 import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
 
@@ -25,6 +27,7 @@ public class GridLauncherFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private SharedPreferences sharedPreferences;
+    private ApplicationBroadcaster applicationBroadcaster;
 
     public void onCreate(Bundle savedInstanceState){
         sharedPreferences = getActivity().getSharedPreferences("me.herrlestrate.kadushko_artyom_info_preferences",0);
@@ -32,11 +35,13 @@ public class GridLauncherFragment extends Fragment {
 
     }
 
+    @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         View result = inflater.inflate(R.layout.activity_launcher,container,false);
 
         recyclerView = result.findViewById(R.id.icon_recycler_view);
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(),getInRow());
+        applicationBroadcaster = new ApplicationBroadcaster(getContext(),recyclerView);
 
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(),getInRow()));
 
@@ -44,6 +49,14 @@ public class GridLauncherFragment extends Fragment {
 
         int offset = getResources().getDimensionPixelOffset(R.dimen.offset);
         recyclerView.addItemDecoration(new LauncherItemDecoration(offset));
+
+        IntentFilter filter = new IntentFilter();
+        filter.addAction(Intent.ACTION_PACKAGE_REMOVED);
+        filter.addAction(Intent.ACTION_PACKAGE_ADDED);
+
+        filter.addDataScheme("package");
+
+        getContext().registerReceiver(applicationBroadcaster, filter);
 
         return result;
 
@@ -62,7 +75,6 @@ public class GridLauncherFragment extends Fragment {
 
         final PackageManager packageManager = getActivity().getPackageManager();
         List<ResolveInfo> activities = packageManager.queryIntentActivities(intent,0);
-
         int sortMethod = Integer.parseInt(sharedPreferences.getString("sort","0"));
         switch (sortMethod){
             case 0:
@@ -107,10 +119,17 @@ public class GridLauncherFragment extends Fragment {
                 break;
         }
 
-        recyclerView.setAdapter(new MyRecyclerViewAdapter(activities,getActivity()));
+        recyclerView.setAdapter(new MyRecyclerViewAdapter(activities,getActivity(),true));
     }
 
     public static GridLauncherFragment newInstance(){
         return new GridLauncherFragment();
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        getContext().unregisterReceiver(applicationBroadcaster);
+
     }
 }
