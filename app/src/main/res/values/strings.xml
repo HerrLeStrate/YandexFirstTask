@@ -1,14 +1,35 @@
 <resources>
-    <string name="app_name">Kadushko_Artyom_Info</string>
-    <string name="artyom_kadushko">Artyom Kadushko</string>
-    <string name="herrlestrate">HerrLeStrate</string>
-    <string name="skip">Skip</string>
-    <string name="next">Next</string>
+    <string name="artyom_kadushko" translatable="false">Artyom Kadushko</string>
+    <string name="herrlestrate" translatable="false">HerrLeStrate</string>
+    <string name="skip">Пропустить</string>
+    <string name="next">Следующий</string>
     <string name="welcome_info">Панки хой</string>
-    <string name="welcome_page_desc">This is default description for app</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
+    <string name="welcome_page_desc">Это стандартное описание</string>
+    <string name="navigation_drawer_open">Открыть навигационный драйвер</string>
+    <string name="navigation_drawer_close">Заказать навигационный драйвер</string>
+    <string name="nav_header_desc">Навигация</string>
+    <string name="method_sort">Метод сортировки</string>
+    <string name="compactView">Компактный вид</string>
+    <string name="darkTheme">Тёмная тема</string>
+    <string name="skipWelcomePage">Пропускать стартовую страницу</string>
+    <string name="appTitle">App title</string>
+    <string name="emailProfile" translatable="false">vemakus@gmail.com</string>
+    <string name="nameProfile">Артём Кадушко</string>
+    <string name="choice_whiteTheme">Светлая тема</string>
+    <string name="choice_darkTheme">Тёмная тема</string>
+    <string name="standartMaket">Стандартный макет</string>
+    <string name="fullMaket">Полный макет</string>
+    <string name="selectGrid">Квадратный</string>
+    <string name="selectList">Лист</string>
+    <string name="selectSettings">Настройки</string>
+    <string name="deleteApp">Удалить приложение</string>
+    <string name="showSettings">Показать настройки</string>
+    <string name="showCount">Показать количество</string>
+    <string name="sort_0">Без сортировки</string>
+    <string name="sort_1">Сортировать по названию</string>
+    <string name="sort_2">Сортировать по названию в обратном порядке</string>
+    <string name="sort_3">Сортировать по дате установки</string>
+    <string name="sort_4">Сортировать по количеству запусков</string>
+    <string name="frequency">Запущено раз:</string>
+    <string name="app_name">Артём Кадушко Инфо</string>
 </resources>

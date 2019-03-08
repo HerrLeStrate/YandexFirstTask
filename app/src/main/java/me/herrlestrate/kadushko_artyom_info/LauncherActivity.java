@@ -12,8 +12,15 @@ import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.crashlytics.android.Crashlytics;
+import com.microsoft.appcenter.AppCenter;
+import com.microsoft.appcenter.analytics.Analytics;
+import com.microsoft.appcenter.crashes.Crashes;
+
 import java.net.URI;
 
+import io.fabric.sdk.android.Fabric;
+import me.herrlestrate.kadushko_artyom_info.fragments.SQLLiteWorker;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.GridLauncherFragment;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.LinearLauncherFragment;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.ProfilerFragment;
@@ -26,11 +33,15 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
 
         changeTheme();
 
+        Log.i("LauncherActivityE","onCreate "+Consts.getLastFragment());
+
+        Fabric.with(this, new Crashlytics());
+        AppCenter.start(getApplication(), "7adff281-c7b5-4c1a-918e-f370ded917af", Analytics.class, Crashes.class);
+        Consts.initSQL(getApplicationContext());
+
         setContentView(R.layout.activity_nav_drawer);
 
         setStarted(true);
-
-
 
         printSavedInfo();
 
@@ -46,7 +57,7 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
             }
         });
 
-        onNavigationItemSelected(navigationView.getMenu().findItem(R.id.nav_grid));
+        onNavigationItemSelected(navigationView.getMenu().findItem(Consts.getLastFragment()));
 
     }
 
@@ -55,21 +66,25 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
         Log.i("LauncherActivity","Navigation Item ID: "+Integer.toString(id));
         switch(id){
             case R.id.nav_grid:
+                Consts.setLastFragment(R.id.nav_grid);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, GridLauncherFragment.newInstance())
                         .commit();
                 break;
             case R.id.nav_list:
+                Consts.setLastFragment(R.id.nav_list);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, LinearLauncherFragment.newInstance())
                         .commit();
                 break;
             case R.id.nav_settings:
+                Consts.setLastFragment(R.id.nav_settings);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, SettingsFragment.newInstance())
                         .commit();
                 break;
             case R.id.nav_none:
+                Consts.setLastFragment(R.id.nav_none);
                 getSupportFragmentManager().beginTransaction()
                         .replace(R.id.launcher_container_fragments, ProfilerFragment.newInstance())
                         .commit();

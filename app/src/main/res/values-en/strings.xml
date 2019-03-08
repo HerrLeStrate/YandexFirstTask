@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Artyom Kadushko Info</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="welcome_info">Pank\'s not dead</string>
+    <string name="welcome_page_desc">It is default description</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation</string>
+    <string name="method_sort">Sort method</string>
+    <string name="compactView">Compact View</string>
+    <string name="darkTheme">Dark Theme</string>
+    <string name="skipWelcomePage">Skip welcome page</string>
+    <string name="appTitle">App title</string>
+    <string name="nameProfile">Artyom Kadushko</string>
+    <string name="choice_whiteTheme">White Theme</string>
+    <string name="choice_darkTheme">Dark Theme</string>
+    <string name="standartMaket">standart maket</string>
+    <string name="fullMaket">full maket</string>
+    <string name="selectGrid">grid</string>
+    <string name="selectList">list</string>
+    <string name="selectSettings">settings</string>
+    <string name="deleteApp">delete application</string>
+    <string name="showSettings">show settings</string>
+    <string name="showCount">show count</string>
+    <string name="sort_0">without sort</string>
+    <string name="sort_1">sort by name</string>
+    <string name="sort_2">sort by name(reverse)</string>
+    <string name="sort_3">sort by installation date</string>
+    <string name="sort_4">sort by launch count</string>
+    <string name="frequency">Launched:</string>
+</resources>

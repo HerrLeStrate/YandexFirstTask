@@ -17,14 +17,14 @@
             android:layout_height="200dp"
             android:background="@drawable/radiogroup"
             android:checked="true"
-            android:text="Стандартный макет"/>
+            android:text="@string/standartMaket"/>
 
         <RadioButton
             android:id="@+id/welcome_full"
             android:layout_width="300dp"
             android:layout_height="200dp"
             android:background="@drawable/radiogroup"
-            android:text="Полный макет"/>
+            android:text="@string/fullMaket"/>
 
     </RadioGroup>
 

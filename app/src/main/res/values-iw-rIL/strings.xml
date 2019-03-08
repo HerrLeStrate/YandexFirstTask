@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">מידע אודות artem kadushko</string>
+    <string name="skip">דלג</string>
+    <string name="next">הבא</string>
+    <string name="welcome_info">הפרחח לא מת.</string>
+    <string name="welcome_page_desc">זה תיאור ברירת מחדל</string>
+    <string name="navigation_drawer_open">פתח מגירת ניווט</string>
+    <string name="navigation_drawer_close">סגור מגירת ניווט</string>
+    <string name="nav_header_desc">ניווט</string>
+    <string name="method_sort">שיטת מיון</string>
+    <string name="compactView"> כווץ תצוגה</string>
+    <string name="darkTheme">ערכת נושא כהה</string>
+    <string name="skipWelcomePage">דלג על עמוד קבלת הפנים</string>
+    <string name="appTitle">כותרת האפליקציה</string>
+    <string name="nameProfile">artyom kabushiki</string>
+    <string name="choice_whiteTheme">ערכת נושא לבנה</string>
+    <string name="choice_darkTheme">ערכת נושא כהה</string>
+    <string name="standartMaket">שוק סטנדרטי</string>
+    <string name="fullMaket">שוק מלא</string>
+    <string name="selectGrid">רשת</string>
+    <string name="selectList">רשימה</string>
+    <string name="selectSettings">הגדרות</string>
+    <string name="deleteApp">מחק יישום</string>
+    <string name="showSettings">הצג הגדרות</string>
+    <string name="showCount">הצג מספר</string>
+    <string name="sort_0">ללא סוג</string>
+    <string name="sort_1">מיין לפי שם</string>
+    <string name="sort_2">מיין לפי שם (הפוך)</string>
+    <string name="sort_3">מיין לפי תאריך ההתקנה</string>
+    <string name="sort_4">מיון לפי מספר השיגור</string>
+    <string name="frequency">הושקה:</string>
+</resources>

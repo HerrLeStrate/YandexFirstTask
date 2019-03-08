@@ -3,13 +3,19 @@
 
     <SwitchPreference
         android:key="alreadyRunned"
-        android:title="Skip welcome page"/>
+        android:title="@string/skipWelcomePage"/>
     <CheckBoxPreference
         android:key="theme"
-        android:title="Dark theme"/>
+        android:title="@string/darkTheme"/>
     <CheckBoxPreference
         android:key="style"
-        android:title="Compact layout" />
+        android:title="@string/compactView" />
+    <ListPreference
+        android:key="sort"
+        android:defaultValue="0"
+        android:title="@string/method_sort"
+        android:entries="@array/sortMethodList"
+        android:entryValues="@array/sortMethodValues"/>
 
 
 </PreferenceScreen>

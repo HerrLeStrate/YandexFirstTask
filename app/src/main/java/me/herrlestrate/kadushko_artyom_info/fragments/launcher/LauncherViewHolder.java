@@ -17,6 +17,7 @@ import android.widget.ImageView;
 import android.widget.PopupMenu;
 import android.widget.TextView;
 
+import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
 
 public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener {
@@ -58,6 +59,8 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
         Log.i("LauncherViewHolder","Clicked!");
         ActivityInfo activityInfo = mResolveInfo.activityInfo;
 
+        Consts.add(activityInfo.applicationInfo.packageName);
+
         Intent i = new Intent(Intent.ACTION_MAIN)
                 .setClassName(activityInfo.applicationInfo.packageName,activityInfo.name)
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -88,7 +91,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
         });
 
         MenuItem launchCountMenu = popupMenu.getMenu().findItem(R.id.action_count_app_launches);
-        launchCountMenu.setTitle("Launcher over size");
+        launchCountMenu.setTitle(v.getResources().getString(R.string.frequency)+Consts.get(mResolveInfo.activityInfo.applicationInfo.packageName));
         launchCountMenu.setEnabled(false);
         popupMenu.show();
         return true;
