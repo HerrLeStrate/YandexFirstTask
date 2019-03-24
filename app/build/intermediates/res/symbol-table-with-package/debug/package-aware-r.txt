@@ -25,6 +25,10 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array imageUpdateList
+array imageUpdateListNow
+array imageUpdateValues
+array imageUpdateValuesNow
 array sortMethodList
 array sortMethodValues
 attr actionBarDivider
@@ -1125,6 +1129,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id action_add_on_desktop
 id action_bar
 id action_bar_activity_content
 id action_bar_container
@@ -1135,6 +1140,7 @@ id action_bar_title
 id action_container
 id action_context_bar
 id action_count_app_launches
+id action_delete_from_desktop
 id action_divider
 id action_image
 id action_menu_divider
@@ -1181,11 +1187,14 @@ id design_menu_item_action_area
 id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
+id desktop_app_name
+id desktop_list
 id dimensions
 id direct
 id disableHome
 id drawer_layout
 id edit_query
+id empty
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1221,6 +1230,7 @@ id item_touch_helper_previous_elevation
 id labeled
 id largeLabel
 id launcher_container_fragments
+id launcher_view_pager
 id left
 id line1
 id line3
@@ -1286,6 +1296,7 @@ id seekbar
 id seekbar_value
 id select_dialog_listview
 id selected
+id settings_layout
 id shortcut
 id showCustom
 id showHome
@@ -1300,6 +1311,7 @@ id spinner
 id split_action_bar
 id spread
 id spread_inside
+id square_image
 id src_atop
 id src_in
 id src_over
@@ -1310,6 +1322,7 @@ id submenuarrow
 id submit_area
 id switchWidget
 id tabMode
+id table
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
@@ -1339,6 +1352,8 @@ id txt
 id uniform
 id unlabeled
 id up
+id url_name
+id url_url
 id useLogo
 id view_offset_helper
 id visible
@@ -1404,6 +1419,7 @@ layout activity_launcher
 layout activity_linear
 layout activity_main
 layout activity_nav_drawer
+layout activity_settings
 layout activity_welcome
 layout app_bar_main
 layout content_main
@@ -1421,6 +1437,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout desktop_layout
 layout expand_button
 layout item_icon_view
 layout item_linear_view
@@ -1453,11 +1470,14 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+layout table_layout_item
+layout url_popup
 layout welcome_page_1
 layout welcome_page_2
 layout welcome_page_3
 layout welcome_page_4
 menu activity_main_drawer
+menu desktop_popup
 menu popup
 mipmap ic_launcher
 mipmap ic_launcher_foreground
@@ -1501,6 +1521,7 @@ string abc_searchview_description_voice
 string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
+string action_add_on_desktop
 string appTitle
 string app_name
 string appbar_scrolling_view_behavior
@@ -1513,7 +1534,11 @@ string choice_whiteTheme
 string com_crashlytics_android_build_id
 string compactView
 string darkTheme
+string default_url_name
+string default_url_url
 string deleteApp
+string delete_from_desktop
+string desktop
 string emailProfile
 string expand_button_title
 string fab_transformation_scrim_behavior
@@ -1522,6 +1547,8 @@ string frequency
 string fullMaket
 string herrlestrate
 string hide_bottom_view_on_scroll_behavior
+string imageUpdateDelay
+string imageUpdateNow
 string method_sort
 string mtrl_chip_close_icon_content_description
 string nameProfile
@@ -1550,6 +1577,10 @@ string sort_4
 string standartMaket
 string status_bar_notification_info_overflow
 string summary_collapsed_preference_list
+string time_0
+string time_1
+string time_3
+string time_4
 string v7_preference_off
 string v7_preference_on
 string welcome_info

@@ -8,6 +8,10 @@
             android:id="@+id/nav_none"
             android:visible="false"/>
         <item
+            android:id="@+id/desktop_list"
+            android:icon="@drawable/background"
+            android:title="@string/desktop"/>
+        <item
             android:id="@+id/nav_grid"
             android:icon="@drawable/ic_menu_camera"
             android:title="@string/selectGrid" />

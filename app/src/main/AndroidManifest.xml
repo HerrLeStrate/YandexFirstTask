@@ -10,7 +10,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning"
+        android:name=".Application">
+
         <activity android:name=".WelcomeActivity"
             android:launchMode="singleInstance"
             android:stateNotNeeded="true">
@@ -21,6 +23,11 @@
                 <category android:name="android.intent.category.HOME"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".SettingsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LauncherActivity" />
         </activity>
         <activity android:name=".LauncherActivity" android:theme="@style/AppTheme.NoActionBar"/>
         <!--<receiver
@@ -37,6 +44,9 @@
             android:name="io.fabric.ApiKey"
             android:value="8b7c9978b6b746ee09d14677a1a39318225b6d49"
             />
+        <service android:name=".ImageService"
+            android:permission="android.permission.BIND_JOB_SERVICE"
+            android:exported="true"/>
     </application>
     <uses-permission android:name="android.permission.INTERNET"
         tools:ignore="ManifestOrder" />

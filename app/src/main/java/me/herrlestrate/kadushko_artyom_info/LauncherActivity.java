@@ -1,32 +1,41 @@
 package me.herrlestrate.kadushko_artyom_info;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.FrameLayout;
 
 import com.crashlytics.android.Crashlytics;
 import com.microsoft.appcenter.AppCenter;
 import com.microsoft.appcenter.analytics.Analytics;
 import com.microsoft.appcenter.crashes.Crashes;
+import com.yandex.metrica.YandexMetrica;
+import com.yandex.metrica.YandexMetricaConfig;
 
 import java.net.URI;
 
 import io.fabric.sdk.android.Fabric;
 import me.herrlestrate.kadushko_artyom_info.fragments.SQLLiteWorker;
+import me.herrlestrate.kadushko_artyom_info.fragments.dekstop.DesktopFragment;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.GridLauncherFragment;
+import me.herrlestrate.kadushko_artyom_info.fragments.launcher.LauncherFragmentPagerAdapter;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.LinearLauncherFragment;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.ProfilerFragment;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.SettingsFragment;
 
 public class LauncherActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+
+    private ViewPager vp;
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
@@ -37,9 +46,25 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
 
         Fabric.with(this, new Crashlytics());
         AppCenter.start(getApplication(), "7adff281-c7b5-4c1a-918e-f370ded917af", Analytics.class, Crashes.class);
+
         Consts.initSQL(getApplicationContext());
 
+        /*// Создание расширенной конфигурации библиотеки.
+        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder(API_key).build();
+        // Инициализация AppMetrica SDK.
+        YandexMetrica.activate(getApplicationContext(), config);
+        // Отслеживание активности пользователей.
+        YandexMetrica.enableActivityAutoTracking(this);*/
+
         setContentView(R.layout.activity_nav_drawer);
+
+        vp = findViewById(R.id.launcher_view_pager);
+
+        LauncherFragmentPagerAdapter adapter = new LauncherFragmentPagerAdapter(getSupportFragmentManager());
+        Consts.setDesktopPagerAdapter(adapter);
+        vp.setOffscreenPageLimit(adapter.getCount());
+        vp.setAdapter(Consts.getDesktopPagerAdapter());
+
 
         setStarted(true);
 
@@ -53,9 +78,12 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
             @Override
             public void onClick(View v) {
                 navigationView.setCheckedItem(R.id.nav_none);
+                YandexMetrica.reportEvent("ViewPager changed!");
                 onNavigationItemSelected(navigationView.getMenu().findItem(R.id.nav_none));
             }
         });
+
+        
 
         onNavigationItemSelected(navigationView.getMenu().findItem(Consts.getLastFragment()));
 
@@ -67,27 +95,27 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
         switch(id){
             case R.id.nav_grid:
                 Consts.setLastFragment(R.id.nav_grid);
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.launcher_container_fragments, GridLauncherFragment.newInstance())
-                        .commit();
+                vp.setCurrentItem(0);
+                YandexMetrica.reportEvent("Set Grid screen");
+
                 break;
             case R.id.nav_list:
                 Consts.setLastFragment(R.id.nav_list);
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.launcher_container_fragments, LinearLauncherFragment.newInstance())
-                        .commit();
+                vp.setCurrentItem(2);
+                YandexMetrica.reportEvent("Set navigation screen");
+                break;
+            case R.id.desktop_list:
+                Consts.setLastFragment(R.id.desktop_list);
+                vp.setCurrentItem(1);
+                YandexMetrica.reportEvent("Set desktop screen");
                 break;
             case R.id.nav_settings:
-                Consts.setLastFragment(R.id.nav_settings);
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.launcher_container_fragments, SettingsFragment.newInstance())
-                        .commit();
+                Consts.setLastFragment(R.id.desktop_list);
+                startActivity(new Intent(this, SettingsActivity.class));
+                YandexMetrica.reportEvent("Set settings screen");
                 break;
             case R.id.nav_none:
-                Consts.setLastFragment(R.id.nav_none);
-                getSupportFragmentManager().beginTransaction()
-                        .replace(R.id.launcher_container_fragments, ProfilerFragment.newInstance())
-                        .commit();
+                break;
         }
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         drawerLayout.closeDrawer(GravityCompat.START);
@@ -112,5 +140,10 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
         SharedPreferences.Editor editor = sharedPreferences.edit();
         editor.putBoolean("alreadyRunned",value);
         editor.commit();
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
     }
 }

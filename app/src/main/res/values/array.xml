@@ -15,4 +15,28 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+
+    <string-array name="imageUpdateList">
+        <item>@string/time_0</item>
+        <item>@string/time_1</item>
+        <item>@string/time_3</item>
+        <item>@string/time_4</item>
+    </string-array>
+
+    <string-array name="imageUpdateValues">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="imageUpdateListNow">
+    </string-array>
+
+    <string-array name="imageUpdateValuesNow">
+    </string-array>
+    <string name="time_0">15 минут</string>
+    <string name="time_1">1 час</string>
+    <string name="time_3">8 часов</string>
+    <string name="time_4">24 часа</string>
 </resources>
