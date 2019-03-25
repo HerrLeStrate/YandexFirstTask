@@ -68,7 +68,11 @@
             android:name="com.crashlytics.android.CrashlyticsInitProvider"
             android:authorities="me.herrlestrate.kadushko_artyom_info.crashlyticsinitprovider"
             android:exported="false"
-            android:initOrder="90" /> <!-- Yandex Mobile Metrica Analytics: common service -->
+            android:initOrder="90" />
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="me.herrlestrate.kadushko_artyom_info.com.squareup.picasso"
+            android:exported="false" /> <!-- Yandex Mobile Metrica Analytics: common service -->
         <service
             android:name="com.yandex.metrica.MetricaService"
             android:enabled="true"
@@ -117,11 +121,6 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER" />
             </intent-filter>
         </receiver>
-
-        <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="me.herrlestrate.kadushko_artyom_info.com.squareup.picasso"
-            android:exported="false" />
     </application>
 
 </manifest>
