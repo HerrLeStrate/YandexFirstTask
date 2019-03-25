@@ -1,4 +1,0 @@
-#Mon Mar 25 02:32:01 MSK 2019
-base.0=F\:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
-path.0=classes.dex
-renamed.0=classes.dex
