@@ -16,6 +16,15 @@
         android:title="@string/method_sort"
         android:entries="@array/sortMethodList"
         android:entryValues="@array/sortMethodValues"/>
+    <ListPreference
+        android:key="imageUpdateDelay"
+        android:defaultValue="0"
+        android:title="@string/imageUpdateDelay"
+        android:entries="@array/imageUpdateList"
+        android:entryValues="@array/imageUpdateValues"/>
+    <Preference
+        android:key="imageUpdateNow"
+        android:title="@string/imageUpdateNow"/>
 
 
 </PreferenceScreen>

@@ -19,10 +19,16 @@
             app:popupTheme="@style/AppTheme.PopupOverlay" /> -->
 
     <!--</android.support.design.widget.AppBarLayout>-->
-
-    <FrameLayout
-        android:id="@+id/launcher_container_fragments"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/launcher_view_pager"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/launcher_container_fragments"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </android.support.v4.view.ViewPager>
+
 
 </android.support.design.widget.CoordinatorLayout>

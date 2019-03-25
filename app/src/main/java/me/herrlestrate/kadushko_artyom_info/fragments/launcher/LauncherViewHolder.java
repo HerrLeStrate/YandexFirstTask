@@ -1,11 +1,14 @@
 package me.herrlestrate.kadushko_artyom_info.fragments.launcher;
 
+import android.content.ClipData;
+import android.content.ClipDescription;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.provider.Settings;
 import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
@@ -84,6 +87,9 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
                     case R.id.action_open_app_settings:
                         openApplicationSetting();
                         return true;
+                    case R.id.action_add_on_desktop:
+                        addOnDesktop();
+                        return true;
                     default:
                         return false;
                 }
@@ -95,6 +101,20 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
         launchCountMenu.setEnabled(false);
         popupMenu.show();
         return true;
+    }
+
+    public void addOnDesktop(){
+        Log.i("Desktop","Add on desktop");
+        for(int i=0;i < 5 ; i++){
+            for(int j=0;j< 4; j++){
+                String name = Consts.getByPos(i,j);
+                if(name == "none"){
+                    Consts.setAppLocation(mResolveInfo.activityInfo.packageName,i,j);
+                    Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                    return;
+                }
+            }
+        }
     }
 
     public void uninstallApplication(){
@@ -113,6 +133,23 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
 
     @Override
     public boolean onLongClick(View v) {
+        ClipData.Item type = new ClipData.Item("type");
+        ClipData.Item data = new ClipData.Item("data");
+
+        String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
+
+        ClipDescription description = new ClipDescription("",mimeTypes);
+
+        ClipData dragData = new ClipData(description,type);
+        dragData.addItem(data);
+
+        View.DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(mView);
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+            mView.startDragAndDrop(dragData,shadowBuilder,mView,0);
+
+        }
+
         return showPopUp(v);
     }
 }

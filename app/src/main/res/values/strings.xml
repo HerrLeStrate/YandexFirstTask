@@ -32,4 +32,11 @@
     <string name="sort_4">Сортировать по количеству запусков</string>
     <string name="frequency">Запущено раз:</string>
     <string name="app_name">Артём Кадушко Инфо</string>
+    <string name="action_add_on_desktop">Добавить на рабочий стол</string>
+    <string name="desktop">Рабочий стол</string>
+    <string name="delete_from_desktop">Удалить с рабочего стола</string>
+    <string name="default_url_name" translatable="false">Yandex</string>
+    <string name="default_url_url" translatable="false">yandex.by</string>
+    <string name="imageUpdateNow">Обновить экран сейчас</string>
+    <string name="imageUpdateDelay">Задержка обновления фона</string>
 </resources>

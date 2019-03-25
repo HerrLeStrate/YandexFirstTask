@@ -15,12 +15,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.yandex.metrica.YandexMetrica;
+
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.List;
 
 import me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster;
+import me.herrlestrate.kadushko_artyom_info.BackgroundManager;
+import me.herrlestrate.kadushko_artyom_info.BackgroundReceiver;
 import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
 
@@ -28,6 +32,7 @@ public class LinearLauncherFragment extends Fragment {
     private RecyclerView recyclerView;
     private SharedPreferences sharedPreferences;
     private ApplicationBroadcaster applicationBroadcaster;
+    protected BackgroundReceiver mBackgroundReceiver;
 
     public void onCreate(Bundle savedInstanceState){
         sharedPreferences = getActivity().getSharedPreferences("me.herrlestrate.kadushko_artyom_info_preferences",0);
@@ -44,6 +49,10 @@ public class LinearLauncherFragment extends Fragment {
         applicationBroadcaster = new ApplicationBroadcaster(getContext(),recyclerView);
 
         setupAdapter();
+
+        String path = recyclerView.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
+        BackgroundManager.startJobService(recyclerView,path);
+        mBackgroundReceiver = new BackgroundReceiver(recyclerView,path);
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_PACKAGE_REMOVED);
@@ -67,13 +76,16 @@ public class LinearLauncherFragment extends Fragment {
 
         switch (sortMethod){
             case 0:
+                YandexMetrica.reportEvent("Selected standard method sort");
                 break;
             case 1:
                 Collections.sort(activities, new ResolveInfo.DisplayNameComparator(packageManager));
+                YandexMetrica.reportEvent("Selected sort by name");
                 break;
             case 2:
                 Collections.sort(activities, new ResolveInfo.DisplayNameComparator(packageManager));
                 Collections.reverse(activities);
+                YandexMetrica.reportEvent("Selected reverse sort by name");
                 break;
             case 3:
                 Collections.sort(activities, new Comparator<ResolveInfo>() {
@@ -94,6 +106,7 @@ public class LinearLauncherFragment extends Fragment {
                         return Long.compare(a, b);
                     }
                 });
+                YandexMetrica.reportEvent("Selected sort by install date");
                 break;
             case 4:
                 Collections.sort(activities, new Comparator<ResolveInfo>() {
@@ -105,6 +118,7 @@ public class LinearLauncherFragment extends Fragment {
                         );
                     }
                 });
+                YandexMetrica.reportEvent("Selected sort by frequency");
                 break;
         }
 
@@ -114,6 +128,22 @@ public class LinearLauncherFragment extends Fragment {
     public static LinearLauncherFragment newInstance(){
         return new LinearLauncherFragment();
     }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+        System.out.println("onStart Linear");
+        IntentFilter filter = new IntentFilter(BackgroundReceiver.UPDATE_BACKGROUND);
+        filter.addAction(BackgroundReceiver.UPDATE_BACKGROUND_ONCE);
+        getContext().registerReceiver(mBackgroundReceiver,filter);
+        getContext().sendBroadcast(new Intent(BackgroundReceiver.UPDATE_BACKGROUND));
+    }
+
+    /*@Override
+    public void onStop() {
+        super.onStop();
+        getContext().unregisterReceiver(mBackgroundReceiver);
+    }*/
 
     @Override
     public void onDestroyView() {

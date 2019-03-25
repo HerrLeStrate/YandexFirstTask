@@ -11,6 +11,7 @@ public class SQLLiteWorker {
     public SQLLiteWorker(Context context){
         db = context.openOrCreateDatabase("app.db",Context.MODE_PRIVATE,null);
         db.execSQL("CREATE TABLE IF NOT EXISTS stats (app_name TEXT, number INTEGER)");
+        db.execSQL("CREATE TABLE IF NOT EXISTS app_location (package_name TEXT, x INTEGER, y INTEGER)");
         /*ContentValues contentValues = new ContentValues();
         contentValues.put("name","Artyom");
         contentValues.put("age","18");
@@ -37,10 +38,36 @@ public class SQLLiteWorker {
     }
 
     public int get(String name){
-        Cursor cursor = db.query("stats",new String[] {"app_name", "number"},"app_name = ?",new String[] {name},null,null,null);
+        Cursor cursor = db.query("stats",new String[] {"app_name", "number"},"app_name = ?",
+                new String[] {name},null,null,null);
         System.out.println(name);
         cursor.moveToFirst();
         if(cursor.getCount() == 0)return 0;
         return cursor.getInt(1);
+    }
+
+    public String getByPos(int i,int j){
+        Cursor cursor = db.query("app_location",new String[] {"package_name"},"x = ? AND y = ?",
+                new String[] {String.valueOf(i),String.valueOf(j)},null,null,null);
+        cursor.moveToFirst();
+        if(cursor.getCount() == 0)return "none";
+        return cursor.getString(0);
+    }
+
+    public boolean deleteByPos(int i,int j){
+        return db.delete("app_location","x = ? AND y = ?",new String[] {String.valueOf(i),String.valueOf(j)}) > 0;
+    }
+
+    public void setAppLocation(String name,int i,int j){
+        Cursor cursor = db.query("app_location",new String[] {"package_name"},"package_name = ?",new String[] {name}
+            ,null,null,null);
+        cursor.moveToFirst();
+        if(cursor.getCount() == 0) {
+            ContentValues contentValues = new ContentValues();
+            contentValues.put("package_name", name);
+            contentValues.put("x", i);
+            contentValues.put("y", j);
+            db.insert("app_location", null, contentValues);
+        }
     }
 }

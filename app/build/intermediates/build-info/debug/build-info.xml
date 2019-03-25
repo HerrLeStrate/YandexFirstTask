@@ -2,28 +2,30 @@
 <instant-run
     abi="x86,armeabi-v7a,armeabi"
     api-level="25"
-    build-mode="COLD"
+    build-mode="FULL"
     density="hdpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
-    plugin-version="3.3.0"
-    timestamp="1552073012857"
+    plugin-version="3.3.2"
+    timestamp="1553473858823"
     token="4954132147153690449"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="3420" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="214" />
+        duration="7753" />
     <task
         name="verifier"
-        duration="95" />
+        duration="6158" />
 
+    <artifact
+        location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+        type="SPLIT" />
     <artifact
         location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
         type="SPLIT" />
@@ -35,6 +37,9 @@
         type="SPLIT" />
     <artifact
         location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+        type="SPLIT" />
+    <artifact
+        location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
         type="SPLIT" />
     <artifact
         location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
@@ -57,62 +62,25 @@
 
     <build
         build-mode="FULL"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1552067248969"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1553473858823"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
             location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
             location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1552073012857"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
             location="F:\AndroidProjects\YandexFirstTask\app\build\intermediates\split-apk\debug\slices\slice_3.apk"

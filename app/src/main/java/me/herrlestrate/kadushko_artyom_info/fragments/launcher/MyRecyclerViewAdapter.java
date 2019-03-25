@@ -55,6 +55,7 @@ public class MyRecyclerViewAdapter extends RecyclerView.Adapter<LauncherViewHold
         ResolveInfo resolveInfo = mInstalledAppInfo.get(position);
         PackageManager pm = this.activity.getPackageManager();
 
+
         if(mIcons.get(resolveInfo) == null){
             mIcons.put(resolveInfo,mInstalledAppInfo.get(position).loadIcon(pm));
         }
