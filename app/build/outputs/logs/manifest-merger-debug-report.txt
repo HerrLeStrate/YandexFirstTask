@@ -5,6 +5,7 @@ INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xm
 INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-54:12
 INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml:2:1-54:12
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d057ff36bbf45110f03e2a830ae23550\AndroidManifest.xml:2:1-19:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\c445fc53b1e4468893e52578c77c8eea\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\922f9f97ab379aa7ccee89c8d55e9d7e\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:preference-v7:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\preference-v7-28.0.0.aar\dcc910dd9d9f6872e376538519aa4f11\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\95fd26dee8920e8511dcc7bfac7edd02\AndroidManifest.xml:17:1-22:12
@@ -15,6 +16,7 @@ MERGED from [com.android.installreferrer:installreferrer:1.0] C:\Users\User\.gra
 MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\User\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\8e109a1378fe5678ac03d8a7ff635bb1\AndroidManifest.xml:2:1-14:12
 MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\3cfddb4febfdea9a00d24d2423d4c27c\AndroidManifest.xml:2:1-11:12
 MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\1afba79514b55faa43faf38d7d85bc78\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8ebc31aaef89194332d071e14712d4a1\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1d76d5ecea567f37617991a29b19f6ac\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\833f5b86e14c5c51fa8e6930911f9f33\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\6400a2b3823c104ff9d19d9959854611\AndroidManifest.xml:17:1-22:12
@@ -38,8 +40,8 @@ MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\User\.gradle\caches\
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\710f93e6c9c7a608e891c25d8c22d9f4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3dbe4f2f70a8d51c6afba472a228c0d0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f691876e3ea84138a58f459611e582b1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\00c1fa9d17fe7f519a5cc08c4b2684ed\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\95e720701c64e82433bcb706c6ffcd3e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\00c1fa9d17fe7f519a5cc08c4b2684ed\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\99bf71a6317a810c34437c26ecd577d3\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\530650c960e747cb1942bac674e7dbae\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\05faa44f55a35572eba3e15d014a4080\AndroidManifest.xml:17:1-22:12
@@ -193,6 +195,8 @@ INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xm
 INJECTED from F:\AndroidProjects\YandexFirstTask\app\src\main\AndroidManifest.xml
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d057ff36bbf45110f03e2a830ae23550\AndroidManifest.xml:7:5-43
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.9.8] C:\Users\User\.gradle\caches\transforms-1\files-1.1\crashlytics-2.9.8.aar\d057ff36bbf45110f03e2a830ae23550\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\c445fc53b1e4468893e52578c77c8eea\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\c445fc53b1e4468893e52578c77c8eea\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\922f9f97ab379aa7ccee89c8d55e9d7e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\922f9f97ab379aa7ccee89c8d55e9d7e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:preference-v7:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\preference-v7-28.0.0.aar\dcc910dd9d9f6872e376538519aa4f11\AndroidManifest.xml:20:5-44
@@ -213,6 +217,8 @@ MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\User\.
 MERGED from [com.microsoft.appcenter:appcenter-analytics:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-analytics-1.11.2.aar\3cfddb4febfdea9a00d24d2423d4c27c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\1afba79514b55faa43faf38d7d85bc78\AndroidManifest.xml:7:5-9:41
 MERGED from [com.microsoft.appcenter:appcenter-crashes:1.11.2] C:\Users\User\.gradle\caches\transforms-1\files-1.1\appcenter-crashes-1.11.2.aar\1afba79514b55faa43faf38d7d85bc78\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8ebc31aaef89194332d071e14712d4a1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\8ebc31aaef89194332d071e14712d4a1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1d76d5ecea567f37617991a29b19f6ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\1d76d5ecea567f37617991a29b19f6ac\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\833f5b86e14c5c51fa8e6930911f9f33\AndroidManifest.xml:20:5-44
@@ -259,10 +265,10 @@ MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\User\.gr
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3dbe4f2f70a8d51c6afba472a228c0d0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f691876e3ea84138a58f459611e582b1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:print:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\f691876e3ea84138a58f459611e582b1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\00c1fa9d17fe7f519a5cc08c4b2684ed\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\00c1fa9d17fe7f519a5cc08c4b2684ed\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\95e720701c64e82433bcb706c6ffcd3e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\User\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\95e720701c64e82433bcb706c6ffcd3e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\00c1fa9d17fe7f519a5cc08c4b2684ed\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\00c1fa9d17fe7f519a5cc08c4b2684ed\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\99bf71a6317a810c34437c26ecd577d3\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\99bf71a6317a810c34437c26ecd577d3\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\User\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\530650c960e747cb1942bac674e7dbae\AndroidManifest.xml:20:5-44
