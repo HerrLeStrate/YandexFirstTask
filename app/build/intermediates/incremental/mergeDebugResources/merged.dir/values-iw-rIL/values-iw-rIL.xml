@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_add_on_desktop">Add on Desktop</string>
+    <string name="appTitle">כותרת האפליקציה</string>
+    <string name="app_name">מידע אודות artem kadushko</string>
+    <string name="choice_darkTheme">ערכת נושא כהה</string>
+    <string name="choice_whiteTheme">ערכת נושא לבנה</string>
+    <string name="compactView"> כווץ תצוגה</string>
+    <string name="darkTheme">ערכת נושא כהה</string>
+    <string name="default_notification">Notification #1</string>
+    <string name="deleteApp">מחק יישום</string>
+    <string name="delete_from_desktop">Remove from Desktop</string>
+    <string name="desktop">Desktop</string>
+    <string name="frequency">הושקה:</string>
+    <string name="fullMaket">שוק מלא</string>
+    <string name="imageUpdateDelay">Delay for screen update</string>
+    <string name="imageUpdateNow">Update screen now</string>
+    <string name="method_sort">שיטת מיון</string>
+    <string name="nameProfile">artyom kabushiki</string>
+    <string name="nav_header_desc">ניווט</string>
+    <string name="navigation_drawer_close">סגור מגירת ניווט</string>
+    <string name="navigation_drawer_open">פתח מגירת ניווט</string>
+    <string name="next">הבא</string>
+    <string name="notification_with_color_and_icon">Notification #2</string>
+    <string name="notifications">Notifications</string>
+    <string name="selectGrid">רשת</string>
+    <string name="selectList">רשימה</string>
+    <string name="selectSettings">הגדרות</string>
+    <string name="showCount">הצג מספר</string>
+    <string name="showSettings">הצג הגדרות</string>
+    <string name="skip">דלג</string>
+    <string name="skipWelcomePage">דלג על עמוד קבלת הפנים</string>
+    <string name="sort_0">ללא סוג</string>
+    <string name="sort_1">מיין לפי שם</string>
+    <string name="sort_2">מיין לפי שם (הפוך)</string>
+    <string name="sort_3">מיין לפי תאריך ההתקנה</string>
+    <string name="sort_4">מיון לפי מספר השיגור</string>
+    <string name="standartMaket">שוק סטנדרטי</string>
+    <string name="time_0">15 mins</string>
+    <string name="time_1">1 hour</string>
+    <string name="time_3">8 hours</string>
+    <string name="time_4">24 hours</string>
+    <string name="welcome_info">הפרחח לא מת.</string>
+    <string name="welcome_page_desc">זה תיאור ברירת מחדל</string>
+</resources>
