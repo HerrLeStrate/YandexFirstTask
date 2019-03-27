@@ -1,11 +1,20 @@
 package me.herrlestrate.kadushko_artyom_info;
 
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.ColorSpace;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.NotificationCompat;
+import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
@@ -37,8 +46,11 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
 
     private ViewPager vp;
 
+    @Override
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
+        Consts.setActivity(this);
 
         changeTheme();
 
@@ -59,7 +71,6 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
         setContentView(R.layout.activity_nav_drawer);
 
         vp = findViewById(R.id.launcher_view_pager);
-
         LauncherFragmentPagerAdapter adapter = new LauncherFragmentPagerAdapter(getSupportFragmentManager());
         Consts.setDesktopPagerAdapter(adapter);
         vp.setOffscreenPageLimit(adapter.getCount());
@@ -113,6 +124,51 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
                 Consts.setLastFragment(R.id.desktop_list);
                 startActivity(new Intent(this, SettingsActivity.class));
                 YandexMetrica.reportEvent("Set settings screen");
+                break;
+            case R.id.notif_1:
+                Intent notificationIntent = new Intent(this, LauncherActivity.class);
+                PendingIntent contentIntent = PendingIntent.getActivity(this,
+                        0, notificationIntent,
+                        PendingIntent.FLAG_CANCEL_CURRENT);
+                NotificationCompat.Builder notif;
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                    NotificationChannel channel = new NotificationChannel("first","first", NotificationManager.IMPORTANCE_DEFAULT);
+                    NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                    notificationManager.createNotificationChannel(channel);
+                    notif = new NotificationCompat.Builder(this,"first");
+                } else {
+                    notif = new NotificationCompat.Builder(this);
+                }
+                notif.setContentIntent(contentIntent)
+                        .setSmallIcon(R.drawable.notif1)
+                        .setContentTitle("Notif #1")
+                        .setContentText("It is notif #1")
+                        .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                        .setAutoCancel(true);
+                NotificationManagerCompat.from(this).notify(0,notif.build());
+                break;
+            case R.id.notif_2:
+                Intent notificationIntent2 = new Intent(this, MainActivity.class);
+                PendingIntent contentIntent2 = PendingIntent.getActivity(this,
+                        0, notificationIntent2,
+                        PendingIntent.FLAG_CANCEL_CURRENT);
+                NotificationCompat.Builder notif2;
+                if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+                    NotificationChannel channel = new NotificationChannel("first","first", NotificationManager.IMPORTANCE_DEFAULT);
+                    NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                    notificationManager.createNotificationChannel(channel);
+                    notif2 = new NotificationCompat.Builder(this,"first");
+                } else {
+                    notif2 = new NotificationCompat.Builder(this);
+                }
+                notif2.setContentIntent(contentIntent2)
+                        .setSmallIcon(R.drawable.notif2)
+                        .setContentTitle("Notif #2")
+                        .setContentText("It is notif #2")
+                        .setPriority(NotificationCompat.PRIORITY_DEFAULT)
+                        .setAutoCancel(true)
+                        .setColor(Color.rgb(255,87,127));
+                NotificationManagerCompat.from(this).notify(0,notif2.build());
                 break;
             case R.id.nav_none:
                 break;

@@ -20,7 +20,10 @@ public class SettingsFragment extends PreferenceFragment {
         Log.i("IMP",myPref.toString());
         myPref.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
             public boolean onPreferenceClick(Preference preference) {
-                Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                //Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                //
+                Consts.getActivity().recreate();
+                getActivity().recreate();
                 return true;
             }
         });

@@ -39,4 +39,7 @@
     <string name="time_1">1 hour</string>
     <string name="time_3">8 hours</string>
     <string name="time_4">24 hours</string>
+    <string name="notifications">Notifications</string>
+    <string name="default_notification">Notification #1</string>
+    <string name="notification_with_color_and_icon">Notification #2</string>
 </resources>

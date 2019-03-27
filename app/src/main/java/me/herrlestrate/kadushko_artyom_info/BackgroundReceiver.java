@@ -32,8 +32,9 @@ public class BackgroundReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         //Log.i("Intent",intent.getAction());
-        if(intent.getAction().equals(UPDATE_BACKGROUND)){
+        if(intent.getAction().equals(UPDATE_BACKGROUND) && mView.getHeight()!=0 && mView.getWidth()!=0){
             new SetBackgroundAsyncTask(mView,mPath).execute();
+
         }else if (intent.getAction().equals(UPDATE_BACKGROUND_ONCE)){
 
 

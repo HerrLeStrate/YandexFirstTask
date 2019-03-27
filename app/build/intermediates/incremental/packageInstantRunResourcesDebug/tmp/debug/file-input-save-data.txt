@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 25 03:31:24 MSK 2019
+#Tue Mar 26 00:32:33 MSK 2019
 0.baseType=DIRECTORY
 0.base=F\:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 0.path=crashlytics-build.properties

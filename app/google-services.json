@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "669591440543",
+    "firebase_url": "https://launcher-3eddb.firebaseio.com",
+    "project_id": "launcher-3eddb",
+    "storage_bucket": "launcher-3eddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669591440543:android:03b8e3775c0b2fcf",
+        "android_client_info": {
+          "package_name": "me.herrlestrate.kadushko_artyom_info"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669591440543-qgibgvrsobtbr4rctjifhug66th7fi51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlMvw22cmBgLylPgj490RhtK0a7dLEl2Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
