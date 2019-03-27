@@ -39,4 +39,7 @@
     <string name="default_url_url" translatable="false">yandex.by</string>
     <string name="imageUpdateNow">Обновить экран сейчас</string>
     <string name="imageUpdateDelay">Задержка обновления фона</string>
+    <string name="notifications">Оповещения</string>
+    <string name="default_notification">Оповещение #1</string>
+    <string name="notification_with_color_and_icon">Оповещение #2</string>
 </resources>

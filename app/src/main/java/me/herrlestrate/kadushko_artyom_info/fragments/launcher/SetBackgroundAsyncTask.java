@@ -10,6 +10,8 @@ import android.view.View;
 
 import com.yandex.metrica.YandexMetrica;
 
+import me.herrlestrate.kadushko_artyom_info.Consts;
+
 public class SetBackgroundAsyncTask extends AsyncTask<Void, Void, Bitmap> {
 
     private final View mView;

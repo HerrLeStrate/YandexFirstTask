@@ -24,12 +24,19 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".SettingsActivity">
+        <activity android:name=".SettingsActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".LauncherActivity" />
         </activity>
-        <activity android:name=".LauncherActivity" android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".LauncherActivity"/>
+        <receiver android:name=".YandexBroadcastReceiver"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="${applicationId}.action.ymp.SILENT_PUSH_RECEIVE"/>
+            </intent-filter>
+        </receiver>
+
         <!--<receiver
             android:name=".ApplicationBroadcaster">
             <intent-filter android:priority="666">
@@ -50,5 +57,4 @@
     </application>
     <uses-permission android:name="android.permission.INTERNET"
         tools:ignore="ManifestOrder" />
-
 </manifest>

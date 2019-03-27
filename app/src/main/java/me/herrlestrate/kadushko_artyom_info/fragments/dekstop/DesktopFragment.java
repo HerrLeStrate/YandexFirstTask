@@ -22,6 +22,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.ContextThemeWrapper;
 import android.view.DragEvent;
 import android.view.LayoutInflater;
 import android.view.MenuInflater;
@@ -70,7 +71,13 @@ public class DesktopFragment extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        Consts.setDesktopView(inflater.inflate(R.layout.desktop_layout,container,false));
+        final Context contextThemeWrapper = new ContextThemeWrapper(getActivity(), Consts.getTheme(getActivity()));
+
+        LayoutInflater localInflater = inflater.cloneInContext(contextThemeWrapper);
+
+        getActivity().setTheme(Consts.getTheme(getActivity()));
+
+        Consts.setDesktopView(localInflater.inflate(R.layout.desktop_layout,container,false));
         final View result = Consts.getDesktopView();
 
         /*new Thread() {
@@ -335,4 +342,11 @@ public class DesktopFragment extends Fragment {
         getContext().registerReceiver(mBackgroundReceiver,filter);
         getContext().sendBroadcast(new Intent(BackgroundReceiver.UPDATE_BACKGROUND));
     }
+
+    /*@Override
+    public void onStop() {
+        super.onStop();
+        YandexMetrica.reportEvent("Stopped desktop Fragment!");
+        getContext().unregisterReceiver(mBackgroundReceiver);
+    }*/
 }

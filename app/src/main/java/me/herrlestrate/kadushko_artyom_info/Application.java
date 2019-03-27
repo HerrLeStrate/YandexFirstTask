@@ -2,6 +2,7 @@ package me.herrlestrate.kadushko_artyom_info;
 
 import com.yandex.metrica.YandexMetrica;
 import com.yandex.metrica.YandexMetricaConfig;
+import com.yandex.metrica.push.YandexMetricaPush;
 
 public class Application extends android.app.Application {
 
@@ -17,6 +18,7 @@ public class Application extends android.app.Application {
         YandexMetrica.activate(getApplicationContext(), config);
         // Отслеживание активности пользователей
         YandexMetrica.enableActivityAutoTracking(this);
+        YandexMetricaPush.init(getApplicationContext());
         YandexMetrica.reportEvent("Application started!");
     }
 }

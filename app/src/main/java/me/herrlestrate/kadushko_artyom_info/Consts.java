@@ -1,6 +1,8 @@
 package me.herrlestrate.kadushko_artyom_info;
 
+import android.app.Activity;
 import android.content.Context;
+import android.content.SharedPreferences;
 import android.support.v4.view.PagerAdapter;
 import android.view.View;
 
@@ -13,6 +15,7 @@ public class Consts {
     private static PagerAdapter DesktopPagerAdapter;
 
     private static SQLLiteWorker SQL = null;
+    private static Activity activity;
     private static View desktopView;
 
     public static void initSQL(Context context){
@@ -64,5 +67,25 @@ public class Consts {
 
     public static void setDesktopView(View desktopView) {
         Consts.desktopView = desktopView;
+    }
+
+    public static int getTheme(Activity activity){
+        SharedPreferences sharedPreferences = activity
+            .getSharedPreferences("me.herrlestrate.kadushko_artyom_info_preferences",0);
+        if(!sharedPreferences.getBoolean("theme",false))return R.style.AppTheme;
+            else return(R.style.AppThemeDark);
+    }
+
+    public static int getTheme(SharedPreferences sharedPreferences){
+        if(!sharedPreferences.getBoolean("theme",false))return R.style.AppTheme;
+        else return(R.style.AppThemeDark);
+    }
+
+    public static Activity getActivity() {
+        return activity;
+    }
+
+    public static void setActivity(Activity activity) {
+        Consts.activity = activity;
     }
 }

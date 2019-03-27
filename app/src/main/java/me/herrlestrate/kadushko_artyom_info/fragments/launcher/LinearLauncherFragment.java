@@ -1,5 +1,6 @@
 package me.herrlestrate.kadushko_artyom_info.fragments.launcher;
 
+import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -11,6 +12,7 @@ import android.support.v4.app.Fragment;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.ContextThemeWrapper;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -42,7 +44,11 @@ public class LinearLauncherFragment extends Fragment {
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
-        View result = inflater.inflate(R.layout.activity_linear,container,false);
+        final Context contextThemeWrapper = new ContextThemeWrapper(getActivity(), Consts.getTheme(getActivity()));
+
+        LayoutInflater localInflater = inflater.cloneInContext(contextThemeWrapper);
+
+        View result = localInflater.inflate(R.layout.activity_linear,container,false);
 
         recyclerView = result.findViewById(R.id.linear_recycler_view);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
@@ -151,4 +157,11 @@ public class LinearLauncherFragment extends Fragment {
         getContext().unregisterReceiver(applicationBroadcaster);
 
     }
+
+    /*@Override
+    public void onStop() {
+        super.onStop();
+        YandexMetrica.reportEvent("Stopped linear Fragment!");
+        getContext().unregisterReceiver(mBackgroundReceiver);
+    }*/
 }
