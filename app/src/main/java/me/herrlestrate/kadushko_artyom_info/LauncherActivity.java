@@ -6,6 +6,8 @@ import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Color;
+import android.graphics.ColorSpace;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -164,7 +166,8 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
                         .setContentTitle("Notif #2")
                         .setContentText("It is notif #2")
                         .setPriority(NotificationCompat.PRIORITY_DEFAULT)
-                        .setAutoCancel(true);
+                        .setAutoCancel(true)
+                        .setColor(Color.rgb(255,87,127));
                 NotificationManagerCompat.from(this).notify(0,notif2.build());
                 break;
             case R.id.nav_none:
