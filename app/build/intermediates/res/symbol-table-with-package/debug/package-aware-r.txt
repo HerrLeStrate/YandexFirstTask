@@ -1334,6 +1334,7 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id profile_layout
 id progress_circular
 id progress_horizontal
 id radio
@@ -1490,6 +1491,7 @@ layout activity_launcher
 layout activity_linear
 layout activity_main
 layout activity_nav_drawer
+layout activity_profile
 layout activity_settings
 layout activity_welcome
 layout app_bar_main

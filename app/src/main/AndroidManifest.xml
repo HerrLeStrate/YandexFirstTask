@@ -30,6 +30,11 @@
                 android:value=".LauncherActivity" />
         </activity>
         <activity android:name=".LauncherActivity"/>
+        <activity android:name=".ProfileActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".LauncherActivity" />
+        </activity>
         <receiver android:name=".YandexBroadcastReceiver"
             android:exported="false">
             <intent-filter>

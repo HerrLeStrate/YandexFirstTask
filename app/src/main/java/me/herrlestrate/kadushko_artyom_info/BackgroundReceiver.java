@@ -22,6 +22,7 @@ public class BackgroundReceiver extends BroadcastReceiver {
 
     protected final View mView;
     protected final String mPath;
+    private long lastUpdate = 0;
 
 
     public BackgroundReceiver(View view, String path) {

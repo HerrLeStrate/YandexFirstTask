@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="me.herrlestrate.kadushko_artyom_info"
     android:versionCode="2"
-    android:versionName="3.0" >
+    android:versionName="5.0" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -46,6 +46,11 @@
                 android:value=".LauncherActivity" />
         </activity>
         <activity android:name="me.herrlestrate.kadushko_artyom_info.LauncherActivity" />
+        <activity android:name="me.herrlestrate.kadushko_artyom_info.ProfileActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".LauncherActivity" />
+        </activity>
 
         <receiver
             android:name="me.herrlestrate.kadushko_artyom_info.YandexBroadcastReceiver"

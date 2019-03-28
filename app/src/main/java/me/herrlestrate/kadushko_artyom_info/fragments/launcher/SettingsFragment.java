@@ -27,11 +27,20 @@ public class SettingsFragment extends PreferenceFragment {
                 return true;
             }
         });
+        Preference compat = findPreference("style");
+        compat.setOnPreferenceClickListener(new Preference.OnPreferenceClickListener() {
+            @Override
+            public boolean onPreferenceClick(Preference preference) {
+                Consts.getActivity().recreate();
+                return true;
+            }
+        });
         Preference sorting = findPreference("sort");
+
         sorting.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object o) {
-                Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                Consts.getActivity().recreate();
                 return true;
             }
         });
