@@ -148,7 +148,7 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
                 NotificationManagerCompat.from(this).notify(0,notif.build());
                 break;
             case R.id.notif_2:
-                Intent notificationIntent2 = new Intent(this, MainActivity.class);
+                Intent notificationIntent2 = new Intent(this, ProfileActivity.class);
                 PendingIntent contentIntent2 = PendingIntent.getActivity(this,
                         0, notificationIntent2,
                         PendingIntent.FLAG_CANCEL_CURRENT);
@@ -171,6 +171,8 @@ public class LauncherActivity extends AppCompatActivity implements NavigationVie
                 NotificationManagerCompat.from(this).notify(0,notif2.build());
                 break;
             case R.id.nav_none:
+                startActivity(new Intent(this, ProfileActivity.class));
+                YandexMetrica.reportEvent("Set settings screen");
                 break;
         }
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);

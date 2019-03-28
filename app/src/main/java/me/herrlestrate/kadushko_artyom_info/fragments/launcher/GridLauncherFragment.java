@@ -54,7 +54,6 @@ public class GridLauncherFragment extends Fragment {
         View result = localInflater.inflate(R.layout.activity_launcher,container,false);
 
         recyclerView = result.findViewById(R.id.icon_recycler_view);
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(getContext(),getInRow());
         applicationBroadcaster = new ApplicationBroadcaster(getContext(),recyclerView);
 
         recyclerView.setLayoutManager(new GridLayoutManager(getContext(),getInRow()));
@@ -64,9 +63,9 @@ public class GridLauncherFragment extends Fragment {
         int offset = getResources().getDimensionPixelOffset(R.dimen.offset);
         recyclerView.addItemDecoration(new LauncherItemDecoration(offset));
 
-        String path = recyclerView.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
-        BackgroundManager.startJobService(recyclerView,path);
-        mBackgroundReceiver = new BackgroundReceiver(recyclerView,path);
+        String path = result.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
+        BackgroundManager.startJobService(result,path);
+        mBackgroundReceiver = new BackgroundReceiver(result,path);
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_PACKAGE_REMOVED);

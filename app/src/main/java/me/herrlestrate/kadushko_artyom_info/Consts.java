@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v4.view.PagerAdapter;
+import android.view.LayoutInflater;
 import android.view.View;
 
 import com.yandex.metrica.YandexMetrica;
@@ -17,6 +18,7 @@ public class Consts {
     private static SQLLiteWorker SQL = null;
     private static Activity activity;
     private static View desktopView;
+    private static LayoutInflater desktopInflater;
 
     public static void initSQL(Context context){
         if(SQL != null)return;
@@ -87,5 +89,13 @@ public class Consts {
 
     public static void setActivity(Activity activity) {
         Consts.activity = activity;
+    }
+
+    public static LayoutInflater getDesktopInflater() {
+        return desktopInflater;
+    }
+
+    public static void setDesktopInflater(LayoutInflater desktopInflater) {
+        Consts.desktopInflater = desktopInflater;
     }
 }

@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
+import me.herrlestrate.kadushko_artyom_info.fragments.dekstop.DesktopFragment;
 
 public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener {
     protected ResolveInfo mResolveInfo;
@@ -110,7 +111,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
                 String name = Consts.getByPos(i,j);
                 if(name == "none"){
                     Consts.setAppLocation(mResolveInfo.activityInfo.packageName,i,j);
-                    Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                    DesktopFragment.update(Consts.getDesktopView(),Consts.getDesktopInflater(),Consts.getActivity());
                     return;
                 }
             }
@@ -133,7 +134,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
 
     @Override
     public boolean onLongClick(View v) {
-        ClipData.Item type = new ClipData.Item("type");
+        /*ClipData.Item type = new ClipData.Item("type");
         ClipData.Item data = new ClipData.Item("data");
 
         String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
@@ -148,7 +149,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             mView.startDragAndDrop(dragData,shadowBuilder,mView,0);
 
-        }
+        }*/
 
         return showPopUp(v);
     }
