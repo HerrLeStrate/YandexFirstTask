@@ -35,6 +35,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
+            android:textStyle="bold"
+            android:maxLines="2"
+            android:textAlignment="center"
+            android:ellipsize="end"
+            android:shadowColor="?attr/colorBackgroundFloating"
+            android:shadowRadius="12"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             />
 
     </LinearLayout>

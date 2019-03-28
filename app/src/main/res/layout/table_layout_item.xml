@@ -18,8 +18,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
+        android:textSize="12sp"
+        android:textStyle="bold"
         android:maxLines="1"
         android:textAlignment="center"
+        android:ellipsize="end"
+        android:shadowColor="?attr/colorBackgroundFloating"
+        android:shadowRadius="12"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
 
         tools:text="@string/appTitle"/>
 
