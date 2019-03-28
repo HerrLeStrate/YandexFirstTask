@@ -37,22 +37,29 @@ import android.widget.TableLayout;
 import android.widget.TableRow;
 import android.widget.TextView;
 
+import com.squareup.picasso.Callback;
 import com.squareup.picasso.Picasso;
 import com.squareup.picasso.RequestCreator;
+import com.squareup.picasso.Target;
 import com.yandex.metrica.YandexMetrica;
 
 import org.w3c.dom.Text;
 
 import java.io.BufferedInputStream;
+import java.io.BufferedReader;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.net.URLConnection;
+import java.nio.charset.Charset;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import me.herrlestrate.kadushko_artyom_info.ApplicationBroadcaster;
 import me.herrlestrate.kadushko_artyom_info.BackgroundManager;
@@ -129,7 +136,7 @@ public class DesktopFragment extends Fragment {
 
     }
 
-    public static void update(final View result, final LayoutInflater inflater, final Activity activity){
+    public static void update(final View result, final LayoutInflater inflater, final Activity activity)  {
         int height = 5;
         int width = 4;
         TableLayout tableLayout = result.findViewById(R.id.table);
@@ -147,7 +154,7 @@ public class DesktopFragment extends Fragment {
                 row.addView(squareView,posY);*/
                 final String package_name = Consts.getByPos(posX,posY);
                 final View view = inflater.inflate(R.layout.table_layout_item, row, false);
-                SquareView im = view.findViewById(R.id.square_image);
+                final SquareView im = view.findViewById(R.id.square_image);
                 TextView text = view.findViewById(R.id.desktop_app_name);
                 view.setLayoutParams(new TableRow.LayoutParams(0, ViewGroup.LayoutParams.WRAP_CONTENT,1.0f));
                 view.setOnClickListener(new View.OnClickListener() {
@@ -160,10 +167,20 @@ public class DesktopFragment extends Fragment {
                     String args[] = package_name.split(":");
                     String name = args[1];
                     final String url = args[2];
-                    RequestCreator requestCreator = Picasso
-                            .get()
-                            .load("https://favicon.yandex.net/favicon/"+url+"?size=120");
-                    requestCreator.into(im);
+                    Picasso.get().load("https://favicon.yandex.net/favicon/"+url+"?size=120")
+                            .into(im, new Callback() {
+                                @Override
+                                public void onSuccess() {
+                                    Bitmap bp = ((BitmapDrawable)im.getDrawable()).getBitmap();
+                                    Bitmap empty = Bitmap.createBitmap(bp.getWidth(),bp.getHeight(),bp.getConfig());
+                                    if(bp.sameAs(empty))im.setImageResource(R.drawable.ic_web);
+                                }
+
+                                @Override
+                                public void onError(Exception e) {
+                                    YandexMetrica.reportError("Picasso fail",e);
+                                }
+                            });
                     text.setText(name);
                     final int pX = posX, pY = posY;
                     view.setOnClickListener(new View.OnClickListener() {

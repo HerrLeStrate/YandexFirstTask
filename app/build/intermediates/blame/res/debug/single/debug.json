@@ -1832,6 +1832,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\09c9e3f73ae95700fac868034374ebdf\\res\\interpolator\\mtrl_linear.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_web.png.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\ic_web.png"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout_welcome_page_3.xml.flat",
         "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout\\welcome_page_3.xml"
     },
