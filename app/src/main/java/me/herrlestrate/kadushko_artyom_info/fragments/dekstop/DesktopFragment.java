@@ -1,5 +1,6 @@
 package me.herrlestrate.kadushko_artyom_info.fragments.dekstop;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
@@ -37,6 +38,7 @@ import android.widget.TableRow;
 import android.widget.TextView;
 
 import com.squareup.picasso.Picasso;
+import com.squareup.picasso.RequestCreator;
 import com.yandex.metrica.YandexMetrica;
 
 import org.w3c.dom.Text;
@@ -79,6 +81,7 @@ public class DesktopFragment extends Fragment {
 
         Consts.setDesktopView(localInflater.inflate(R.layout.desktop_layout,container,false));
         final View result = Consts.getDesktopView();
+        Consts.setDesktopInflater(inflater);
 
         /*new Thread() {
             View res = Consts.getDesktopView();
@@ -115,13 +118,22 @@ public class DesktopFragment extends Fragment {
                 }
             }
         }.start();*/
+
+        String path = result.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
+        BackgroundManager.startJobService(result,path);
+        mBackgroundReceiver = new BackgroundReceiver(result,path);
+
+        update(result,inflater, getActivity());
+
+        return result;
+
+    }
+
+    public static void update(final View result, final LayoutInflater inflater, final Activity activity){
         int height = 5;
         int width = 4;
         TableLayout tableLayout = result.findViewById(R.id.table);
-        String path = tableLayout.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
-        BackgroundManager.startJobService(tableLayout,path);
-        mBackgroundReceiver = new BackgroundReceiver(tableLayout,path);
-        getActivity().sendBroadcast(new Intent());
+        tableLayout.removeAllViews();
         for(int posX = 0;posX < height; posX++){
 
             TableRow row = new TableRow(result.getContext());
@@ -148,14 +160,17 @@ public class DesktopFragment extends Fragment {
                     String args[] = package_name.split(":");
                     String name = args[1];
                     final String url = args[2];
-                    Picasso.get().load("https://favicon.yandex.net/favicon/"+url+"?size=120").into(im);
+                    RequestCreator requestCreator = Picasso
+                            .get()
+                            .load("https://favicon.yandex.net/favicon/"+url+"?size=120");
+                    requestCreator.into(im);
                     text.setText(name);
                     final int pX = posX, pY = posY;
                     view.setOnClickListener(new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
                             Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www."+url));
-                            startActivity(browserIntent);
+                            activity.startActivity(browserIntent);
                         }
                     });
                     view.setOnLongClickListener(new View.OnLongClickListener() {
@@ -171,7 +186,7 @@ public class DesktopFragment extends Fragment {
                                     switch (item.getItemId()) {
                                         case R.id.action_delete_from_desktop:
                                             Consts.removeByPos(pX,pY);
-                                            Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                                            update(result, inflater, activity);
                                             return true;
                                         default:
                                             return false;
@@ -190,19 +205,19 @@ public class DesktopFragment extends Fragment {
                     view.setOnLongClickListener(new View.OnLongClickListener() {
                         @Override
                         public boolean onLongClick(View v) {
-                            AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
-                            final LayoutInflater inflater = getActivity().getLayoutInflater();
+                            AlertDialog.Builder builder = new AlertDialog.Builder(activity);
+                            final LayoutInflater inflater = activity.getLayoutInflater();
                             final View vDialog = inflater.inflate(R.layout.url_popup,null);
                             builder.setView(vDialog)
-                                .setPositiveButton("Добавить", new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        EditText t = vDialog.findViewById(R.id.url_name);
-                                        EditText t2 = vDialog.findViewById(R.id.url_url);
-                                        Consts.setAppLocation("[URL]:"+t.getText()+":"+t2.getText(),pX,pY);
-                                        Consts.getDesktopPagerAdapter().notifyDataSetChanged();
-                                    }
-                                }).setNegativeButton("Отмена", new DialogInterface.OnClickListener() {
+                                    .setPositiveButton("Добавить", new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            EditText t = vDialog.findViewById(R.id.url_name);
+                                            EditText t2 = vDialog.findViewById(R.id.url_url);
+                                            Consts.setAppLocation("[URL]:"+t.getText()+":"+t2.getText(),pX,pY);
+                                            update(result, inflater, activity);
+                                        }
+                                    }).setNegativeButton("Отмена", new DialogInterface.OnClickListener() {
                                 @Override
                                 public void onClick(DialogInterface dialog, int which) {
 
@@ -214,7 +229,7 @@ public class DesktopFragment extends Fragment {
                     });
                 }else{
                     //TODO get activity info and get logo for package name
-                    final PackageManager pm = getActivity().getPackageManager();
+                    final PackageManager pm = activity.getPackageManager();
                     try {
                         final ApplicationInfo info = pm.getApplicationInfo(package_name,0);
                         im.setImageDrawable(info.loadIcon(pm));
@@ -250,7 +265,7 @@ public class DesktopFragment extends Fragment {
                                         switch (item.getItemId()) {
                                             case R.id.action_delete_from_desktop:
                                                 Consts.removeByPos(pX,pY);
-                                                Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                                                update(result, inflater, activity);
                                                 return true;
                                             default:
                                                 return false;
@@ -281,7 +296,7 @@ public class DesktopFragment extends Fragment {
                                         switch (item.getItemId()) {
                                             case R.id.action_delete_from_desktop:
                                                 Consts.removeByPos(pX,pY);
-                                                Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                                                update(result, inflater, activity);
                                                 return true;
                                             default:
                                                 return false;
@@ -298,8 +313,6 @@ public class DesktopFragment extends Fragment {
             }
             tableLayout.addView(row,posX);
         }
-        return result;
-
     }
 
     @Override

@@ -1764,6 +1764,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\e49a4aee1ce7e127525175c63d90d9be\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_web_browser.jpg.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\web_browser.jpg"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-hdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },

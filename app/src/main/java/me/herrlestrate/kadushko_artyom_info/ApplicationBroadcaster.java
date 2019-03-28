@@ -10,6 +10,7 @@ import android.util.Log;
 
 import com.yandex.metrica.YandexMetrica;
 
+import me.herrlestrate.kadushko_artyom_info.fragments.dekstop.DesktopFragment;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.LauncherViewHolder;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.MyRecyclerViewAdapter;
 
@@ -51,7 +52,7 @@ public class ApplicationBroadcaster extends BroadcastReceiver {
             adapter.notifyDataSetChanged();
             for(int i=0;i<5;i++)
                 for(int j=0;j<5;j++)if(target.activityInfo.packageName.equals(Consts.getByPos(i,j)))Consts.removeByPos(i,j);
-            Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+            DesktopFragment.update(Consts.getDesktopView(),Consts.getDesktopInflater(),Consts.getActivity());
         } else if(intent.getAction().equals(Intent.ACTION_PACKAGE_ADDED)){
             YandexMetrica.reportEvent("Application added!");
             Log.i("Notifer","Add Detected!");

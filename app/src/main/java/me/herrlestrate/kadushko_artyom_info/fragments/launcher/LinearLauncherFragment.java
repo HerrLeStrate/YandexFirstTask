@@ -56,9 +56,9 @@ public class LinearLauncherFragment extends Fragment {
 
         setupAdapter();
 
-        String path = recyclerView.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
-        BackgroundManager.startJobService(recyclerView,path);
-        mBackgroundReceiver = new BackgroundReceiver(recyclerView,path);
+        String path = result.getContext().getFilesDir().toString()  + this.getClass().toString() + ".png";
+        BackgroundManager.startJobService(result,path);
+        mBackgroundReceiver = new BackgroundReceiver(result,path);
 
         IntentFilter filter = new IntentFilter();
         filter.addAction(Intent.ACTION_PACKAGE_REMOVED);

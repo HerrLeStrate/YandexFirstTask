@@ -22,6 +22,7 @@ import android.widget.TextView;
 
 import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
+import me.herrlestrate.kadushko_artyom_info.fragments.dekstop.DesktopFragment;
 
 public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener,View.OnLongClickListener {
     protected ResolveInfo mResolveInfo;
@@ -110,7 +111,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
                 String name = Consts.getByPos(i,j);
                 if(name == "none"){
                     Consts.setAppLocation(mResolveInfo.activityInfo.packageName,i,j);
-                    Consts.getDesktopPagerAdapter().notifyDataSetChanged();
+                    DesktopFragment.update(Consts.getDesktopView(),Consts.getDesktopInflater(),Consts.getActivity());
                     return;
                 }
             }

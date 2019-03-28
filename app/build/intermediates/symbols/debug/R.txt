@@ -1174,6 +1174,7 @@ int drawable radiogroup 0x7f08009a
 int drawable side_nav_bar 0x7f08009b
 int drawable tooltip_frame_dark 0x7f08009c
 int drawable tooltip_frame_light 0x7f08009d
+int drawable web_browser 0x7f08009e
 int id ALT 0x7f090000
 int id CTRL 0x7f090001
 int id FUNCTION 0x7f090002
