@@ -1152,6 +1152,7 @@ drawable ic_menu_slideshow
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_web
 drawable media
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
