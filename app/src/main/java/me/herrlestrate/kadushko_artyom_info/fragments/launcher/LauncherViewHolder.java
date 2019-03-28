@@ -133,7 +133,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
 
     @Override
     public boolean onLongClick(View v) {
-        ClipData.Item type = new ClipData.Item("type");
+        /*ClipData.Item type = new ClipData.Item("type");
         ClipData.Item data = new ClipData.Item("data");
 
         String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
@@ -148,7 +148,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
             mView.startDragAndDrop(dragData,shadowBuilder,mView,0);
 
-        }
+        }*/
 
         return showPopUp(v);
     }

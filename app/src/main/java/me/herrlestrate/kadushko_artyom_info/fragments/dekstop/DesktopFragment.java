@@ -183,7 +183,7 @@ public class DesktopFragment extends Fragment {
                         }
                     });
                 }else if(package_name == "none") {
-                    im.setImageResource(R.drawable.ic_launcher_foreground);
+                    im.setImageResource(R.drawable.ava_circle);
                     im.setVisibility(View.INVISIBLE);
                     text.setText("");
                     final int pX = posX, pY = posY;
@@ -264,7 +264,7 @@ public class DesktopFragment extends Fragment {
                     } catch (PackageManager.NameNotFoundException e) {
                         e.printStackTrace();
                         YandexMetrica.reportError("Error at packageNameNotFound (Desktop) ",e);
-                        im.setImageResource(R.drawable.ic_launcher_foreground);
+                        im.setImageResource(R.drawable.ava_circle);
                         im.setVisibility(View.INVISIBLE);
                         text.setText("");
                         final int pX = posX, pY = posY;
