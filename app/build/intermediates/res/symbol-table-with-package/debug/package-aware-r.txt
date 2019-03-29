@@ -1253,6 +1253,7 @@ id design_menu_item_text
 id design_navigation_view
 id desktop_app_name
 id desktop_list
+id desktop_remove_bar
 id dimensions
 id direct
 id disableHome
@@ -1276,6 +1277,7 @@ id ghost_view
 id gone
 id grid_app_icon
 id grid_app_title
+id grid_remove_bar
 id group_divider
 id groups
 id home
@@ -1304,6 +1306,7 @@ id line3
 id linear_app_icon
 id linear_app_title
 id linear_recycler_view
+id linear_remove_bar
 id listMode
 id list_item
 id masked
@@ -1314,6 +1317,7 @@ id mini
 id mtrl_child_content_container
 id mtrl_internal_children_alpha_tag
 id multiply
+id my_text
 id nav_grid
 id nav_list
 id nav_none
@@ -1500,6 +1504,7 @@ layout app_bar_main
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout content_main
+layout custom_action_bar
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1677,6 +1682,7 @@ string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
 string project_id
+string remove_app_from_desktop
 string search_menu_title
 string selectGrid
 string selectList

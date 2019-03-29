@@ -19,6 +19,7 @@ public class Consts {
     private static Activity activity;
     private static View desktopView;
     private static LayoutInflater desktopInflater;
+    private static String DragData = "";
 
     public static void initSQL(Context context){
         if(SQL != null)return;
@@ -97,5 +98,13 @@ public class Consts {
 
     public static void setDesktopInflater(LayoutInflater desktopInflater) {
         Consts.desktopInflater = desktopInflater;
+    }
+
+    public static String getDragData() {
+        return DragData;
+    }
+
+    public static void setDragData(String dragData) {
+        DragData = dragData;
     }
 }

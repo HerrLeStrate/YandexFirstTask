@@ -4,6 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <TextView
+        android:id="@+id/linear_remove_bar"
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:background="#00000000"
+        android:visibility="invisible" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/linear_recycler_view"
         android:layout_width="match_parent"
