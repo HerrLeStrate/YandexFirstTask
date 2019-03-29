@@ -22,6 +22,12 @@
         android:title="@string/imageUpdateDelay"
         android:entries="@array/imageUpdateList"
         android:entryValues="@array/imageUpdateValues"/>
+    <ListPreference
+        android:key="imageURL"
+        android:defaultValue="0"
+        android:title="@string/src_for_bacground"
+        android:entries="@array/imageURLList"
+        android:entryValues="@array/imageURLValues"/>
     <Preference
         android:key="imageUpdateNow"
         android:title="@string/imageUpdateNow"/>

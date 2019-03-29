@@ -43,4 +43,7 @@
     <string name="default_notification">Notification #1</string>
     <string name="notification_with_color_and_icon">Notification #2</string>
     <string name="remove_app_from_desktop">Delete</string>
+    <string name="src_for_bacground">Source for background</string>
+    <string name="default_desc">דיוקן: 4 סמלים לשורה \\nLandscape: 6 סמלים לשורה</string>
+    <string name="densce_desc">דיוקן: 5 סמלים לשורה \\nLandscape: 7 סמלים לשורה</string>
 </resources>

@@ -29,25 +29,8 @@ public class WelcomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_welcome);
 
         final ViewPager viewPager = findViewById(R.id.welcome_view_pager);
-        Button buttonNext = findViewById(R.id.welcome_btn_next);
-
-        buttonNext.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                int currentPage = viewPager.getCurrentItem();
-                if(currentPage < Objects.requireNonNull(
-                        viewPager.getAdapter()).getCount()-1)
-                    viewPager.setCurrentItem(currentPage+1);
-                else {
-                    //TODO LauncherActivity.class
-                    nextActivity();
-                }
-            }
-        });
-
-        viewPager.setAdapter(new WelcomeFragmentPagerAdapter(
-                getSupportFragmentManager()
-        ));
+        viewPager.setAdapter(new WelcomeFragmentPagerAdapter(getSupportFragmentManager()));
+        Consts.setWelcomePageAdapter(viewPager);
     }
 
     public boolean alreadyRunned(){

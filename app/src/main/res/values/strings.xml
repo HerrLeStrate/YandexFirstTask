@@ -43,4 +43,7 @@
     <string name="default_notification">Оповещение #1</string>
     <string name="notification_with_color_and_icon">Оповещение #2</string>
     <string name="remove_app_from_desktop">Удалить</string>
+    <string name="src_for_bacground">Источник для фона</string>
+    <string name="default_desc">Портретный: 4 иконки в строке \n Ландшафтный: 6 иконок в строке</string>
+    <string name="densce_desc">Портретный: 5 значков в ряду \n Ландшафтный: 7 значков в ряду</string>
 </resources>

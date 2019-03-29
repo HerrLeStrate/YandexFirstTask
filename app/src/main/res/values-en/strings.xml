@@ -43,4 +43,7 @@
     <string name="default_notification">Notification #1</string>
     <string name="notification_with_color_and_icon">Notification #2</string>
     <string name="remove_app_from_desktop">Delete</string>
+    <string name="src_for_bacground">Source for background</string>
+    <string name="default_desc">Portrait: 4 icons per row \\n Landscape: 6 icons per row</string>
+    <string name="densce_desc">Portrait: 5 icons per row \\n Landscape: 7 icons per row</string>
 </resources>

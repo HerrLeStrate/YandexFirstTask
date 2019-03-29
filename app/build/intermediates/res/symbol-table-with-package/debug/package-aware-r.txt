@@ -25,6 +25,8 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array imageURLList
+array imageURLValues
 array imageUpdateList
 array imageUpdateListNow
 array imageUpdateValues
@@ -1225,6 +1227,10 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id button
+id button2
+id button3
+id button4
 id buttonPanel
 id cancel_action
 id center
@@ -1233,6 +1239,8 @@ id center_vertical
 id chains
 id checkbox
 id chronometer
+id clickable_first
+id clickable_second
 id clip_horizontal
 id clip_vertical
 id collapseActionView
@@ -1243,7 +1251,6 @@ id coordinator
 id custom
 id customPanel
 id dark
-id dark_theme
 id decor_content_parent
 id default_activity_button
 id design_bottom_sheet
@@ -1273,6 +1280,7 @@ id fill_vertical
 id filled
 id fixed
 id forever
+id frameLayout
 id ghost_view
 id gone
 id grid_app_icon
@@ -1290,6 +1298,8 @@ id icon_recycler_view
 id ifRoom
 id image
 id imageView
+id imageView2
+id imageView4
 id img
 id info
 id invisible
@@ -1303,6 +1313,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout2
 id linear_app_icon
 id linear_app_title
 id linear_recycler_view
@@ -1344,6 +1355,8 @@ id profile_layout
 id progress_circular
 id progress_horizontal
 id radio
+id radioButton
+id radioButton2
 id recycler_view
 id right
 id right_icon
@@ -1408,6 +1421,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textView
+id textView3
+id textView4
+id textView5
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1433,14 +1449,9 @@ id url_url
 id useLogo
 id view_offset_helper
 id visible
-id welcome_btn_next
-id welcome_default
-id welcome_full
-id welcome_radio_group
 id welcome_rel3
 id welcome_rel4
 id welcome_view_pager
-id white_theme
 id wide
 id withText
 id wrap
@@ -1643,12 +1654,14 @@ string common_signin_button_text
 string common_signin_button_text_long
 string compactView
 string darkTheme
+string default_desc
 string default_notification
 string default_url_name
 string default_url_url
 string default_web_client_id
 string deleteApp
 string delete_from_desktop
+string densce_desc
 string desktop
 string emailProfile
 string expand_button_title
@@ -1696,6 +1709,7 @@ string sort_1
 string sort_2
 string sort_3
 string sort_4
+string src_for_bacground
 string standartMaket
 string status_bar_notification_info_overflow
 string summary_collapsed_preference_list
@@ -1909,6 +1923,7 @@ style Base_Widget_MaterialComponents_TextInputLayout
 style CardView
 style CardView_Dark
 style CardView_Light
+style MyRadioButton
 style Platform_AppCompat
 style Platform_AppCompat_Light
 style Platform_MaterialComponents
