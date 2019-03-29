@@ -42,4 +42,5 @@
     <string name="notifications">Notifications</string>
     <string name="default_notification">Notification #1</string>
     <string name="notification_with_color_and_icon">Notification #2</string>
+    <string name="remove_app_from_desktop">Delete</string>
 </resources>

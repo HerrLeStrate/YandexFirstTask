@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.job.JobInfo;
 import android.app.job.JobScheduler;
+import android.content.ClipData;
+import android.content.ClipDescription;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -15,14 +17,19 @@ import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Color;
+import android.graphics.Point;
+import android.graphics.Rect;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.PagerAdapter;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.ContextThemeWrapper;
 import android.view.DragEvent;
 import android.view.LayoutInflater;
@@ -68,7 +75,7 @@ import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
 import me.herrlestrate.kadushko_artyom_info.fragments.launcher.SquareView;
 
-public class DesktopFragment extends Fragment {
+public class DesktopFragment extends Fragment  {
 
     private SharedPreferences sharedPreferences;
     protected BackgroundReceiver mBackgroundReceiver;
@@ -88,6 +95,7 @@ public class DesktopFragment extends Fragment {
 
         Consts.setDesktopView(localInflater.inflate(R.layout.desktop_layout,container,false));
         final View result = Consts.getDesktopView();
+
         Consts.setDesktopInflater(inflater);
 
         /*new Thread() {
@@ -132,8 +140,75 @@ public class DesktopFragment extends Fragment {
 
         update(result,inflater, getActivity());
 
+        result.setOnDragListener(new View.OnDragListener() {
+            @Override
+            public boolean onDrag(View v, DragEvent event) {
+                int action = event.getAction();
+                switch (action){
+                    case DragEvent.ACTION_DRAG_STARTED:
+                        v.findViewById(R.id.desktop_remove_bar)
+                                .setBackgroundColor(Color.argb(33,0,0,0));
+                        v.findViewById(R.id.desktop_remove_bar).setVisibility(View.VISIBLE);
+                        break;
+                    case DragEvent.ACTION_DRAG_ENDED:
+                        ClipData data = event.getClipData();
+                        if(isTouchPointInView(v,event)){
+                            String args[] = Consts.getDragData().split(":");
+                            Consts.setDragData("");
+                            int i = Integer.parseInt(args[0]);
+                            int j = Integer.parseInt(args[1]);
+                            Consts.removeByPos(i,j);
+
+                            update(Consts.getDesktopView(),Consts.getDesktopInflater(),getActivity());
+                        }
+                        v.findViewById(R.id.desktop_remove_bar)
+                                .setBackgroundColor(Color.argb(0,0,0,0));
+                        v.findViewById(R.id.desktop_remove_bar)
+                                .setVisibility(View.INVISIBLE);
+                        break;
+                    case DragEvent.ACTION_DRAG_EXITED:
+
+                        break;
+                    case DragEvent.ACTION_DROP:
+
+                        break;
+                    case DragEvent.ACTION_DRAG_LOCATION:
+
+                        break;
+                    case DragEvent.ACTION_DRAG_ENTERED:
+
+                        break;
+                    default:
+
+                        break;
+                }
+                return true;
+            }
+        });
+
         return result;
 
+    }
+
+    public static boolean isTouchPointInView(View v, DragEvent event){
+        Rect rect = new Rect();
+        Point point = new Point();
+
+        v.findViewById(R.id.desktop_remove_bar).getGlobalVisibleRect(rect,point);
+        Log.d("OFFFSET",point.toString());
+
+        rect.offset(0,-point.y);
+
+        int x = Math.round(event.getX());
+        int y = Math.round(event.getY());
+
+        if(rect.contains(x,y)){
+            Log.d("OK",rect.toString() + "\n" + event.getX() +" " + event.getY());
+            return true;
+        }else {
+            Log.d("NOTOK",rect.toString() + "\n" + event.getX() +" " + event.getY());
+            return false;
+        }
     }
 
     public static void update(final View result, final LayoutInflater inflater, final Activity activity)  {
@@ -166,7 +241,9 @@ public class DesktopFragment extends Fragment {
                 if(package_name.startsWith("[URL]:")){
                     String args[] = package_name.split(":");
                     String name = args[1];
+
                     final String url = args[2];
+                    if(name.isEmpty())name=url;
                     Picasso.get().load("https://favicon.yandex.net/favicon/"+url+"?size=120")
                             .into(im, new Callback() {
                                 @Override
@@ -193,7 +270,7 @@ public class DesktopFragment extends Fragment {
                     view.setOnLongClickListener(new View.OnLongClickListener() {
                         @Override
                         public boolean onLongClick(View v) {
-                            PopupMenu popupMenu = new PopupMenu(v.getContext(),v);
+                            /*PopupMenu popupMenu = new PopupMenu(v.getContext(),v);
                             MenuInflater menuInflater = popupMenu.getMenuInflater();
                             menuInflater.inflate(R.menu.desktop_popup,popupMenu.getMenu());
 
@@ -211,6 +288,29 @@ public class DesktopFragment extends Fragment {
                                 }
                             });
                             popupMenu.show();
+                            return true;*/
+                            ClipData.Item type = new ClipData.Item("type");
+                            ClipData.Item data = new ClipData.Item("data");
+
+                            String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
+
+                            ClipDescription description = new ClipDescription("",mimeTypes);
+
+                            ClipData dragData = new ClipData(description,type);
+                            dragData.addItem(data);
+
+                            View.DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(v);
+
+                            Consts.setDragData(String.valueOf(pX)+":"+String.valueOf(pY));
+
+                            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                                v.startDragAndDrop(dragData,shadowBuilder,v,0);
+
+                            }else{
+                                v.startDrag(dragData,shadowBuilder,v,0);
+                            }
+
+
                             return true;
                         }
                     });
@@ -272,7 +372,7 @@ public class DesktopFragment extends Fragment {
                         view.setOnLongClickListener(new View.OnLongClickListener() {
                             @Override
                             public boolean onLongClick(View v) {
-                                PopupMenu popupMenu = new PopupMenu(v.getContext(),v);
+                                /*PopupMenu popupMenu = new PopupMenu(v.getContext(),v);
                                 MenuInflater menuInflater = popupMenu.getMenuInflater();
                                 menuInflater.inflate(R.menu.desktop_popup,popupMenu.getMenu());
 
@@ -290,6 +390,27 @@ public class DesktopFragment extends Fragment {
                                     }
                                 });
                                 popupMenu.show();
+                                return true;*/
+                                ClipData.Item type = new ClipData.Item("type");
+                                ClipData.Item data = new ClipData.Item("data");
+
+                                String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
+
+                                ClipDescription description = new ClipDescription("",mimeTypes);
+
+                                ClipData dragData = new ClipData(description,type);
+                                dragData.addItem(data);
+
+                                View.DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(v);
+
+                                Consts.setDragData(String.valueOf(pX)+":"+String.valueOf(pY));
+
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                                    v.startDragAndDrop(dragData,shadowBuilder,v,0);
+
+                                }else{
+                                    v.startDrag(dragData,shadowBuilder,v,0);
+                                }
                                 return true;
                             }
                         });
@@ -303,7 +424,7 @@ public class DesktopFragment extends Fragment {
                         view.setOnLongClickListener(new View.OnLongClickListener() {
                             @Override
                             public boolean onLongClick(View v) {
-                                PopupMenu popupMenu = new PopupMenu(v.getContext(),v);
+                                /*PopupMenu popupMenu = new PopupMenu(v.getContext(),v);
                                 MenuInflater menuInflater = popupMenu.getMenuInflater();
                                 menuInflater.inflate(R.menu.desktop_popup,popupMenu.getMenu());
 
@@ -320,7 +441,28 @@ public class DesktopFragment extends Fragment {
                                         }
                                     }
                                 });
-                                popupMenu.show();
+                                popupMenu.show();*/
+
+                                ClipData.Item type = new ClipData.Item("type");
+                                ClipData.Item data = new ClipData.Item("data");
+
+                                String[] mimeTypes = {ClipDescription.MIMETYPE_TEXT_PLAIN};
+
+                                ClipDescription description = new ClipDescription("",mimeTypes);
+
+                                ClipData dragData = new ClipData(description,type);
+                                dragData.addItem(data);
+
+                                View.DragShadowBuilder shadowBuilder = new View.DragShadowBuilder(v);
+
+                                Consts.setDragData(String.valueOf(pX)+":"+String.valueOf(pY));
+
+                                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
+                                    v.startDragAndDrop(dragData,shadowBuilder,v,0);
+
+                                }else{
+                                    v.startDrag(dragData,shadowBuilder,v,0);
+                                }
                                 return true;
                             }
                         });
