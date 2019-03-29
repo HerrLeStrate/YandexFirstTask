@@ -9,6 +9,7 @@
     <me.herrlestrate.kadushko_artyom_info.fragments.launcher.SquareView
         android:layout_height="match_parent"
         android:layout_width="match_parent"
+        android:layout_margin="5sp"
         android:id="@+id/square_image"
         android:scaleType="fitCenter"/>
 
@@ -17,7 +18,6 @@
         android:id="@+id/desktop_app_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
         android:textSize="12sp"
         android:textStyle="bold"
         android:maxLines="1"
