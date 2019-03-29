@@ -151,7 +151,16 @@ public class DesktopFragment extends Fragment  {
                         v.findViewById(R.id.desktop_remove_bar).setVisibility(View.VISIBLE);
                         break;
                     case DragEvent.ACTION_DRAG_ENDED:
-                        ClipData data = event.getClipData();
+                        v.findViewById(R.id.desktop_remove_bar)
+                                .setBackgroundColor(Color.argb(0,0,0,0));
+                        v.findViewById(R.id.desktop_remove_bar)
+                                .setVisibility(View.INVISIBLE);
+                        break;
+                    case DragEvent.ACTION_DRAG_EXITED:
+
+                        break;
+                    case DragEvent.ACTION_DROP:
+                        ClipData dt = event.getClipData();
                         if(isTouchPointInView(v,event)){
                             String args[] = Consts.getDragData().split(":");
                             Consts.setDragData("");
@@ -165,12 +174,6 @@ public class DesktopFragment extends Fragment  {
                                 .setBackgroundColor(Color.argb(0,0,0,0));
                         v.findViewById(R.id.desktop_remove_bar)
                                 .setVisibility(View.INVISIBLE);
-                        break;
-                    case DragEvent.ACTION_DRAG_EXITED:
-
-                        break;
-                    case DragEvent.ACTION_DROP:
-
                         break;
                     case DragEvent.ACTION_DRAG_LOCATION:
 
@@ -196,8 +199,6 @@ public class DesktopFragment extends Fragment  {
 
         v.findViewById(R.id.desktop_remove_bar).getGlobalVisibleRect(rect,point);
         Log.d("OFFFSET",point.toString());
-
-        rect.offset(0,-point.y);
 
         int x = Math.round(event.getX());
         int y = Math.round(event.getY());
