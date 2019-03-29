@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.support.v4.view.PagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 
@@ -20,6 +21,7 @@ public class Consts {
     private static View desktopView;
     private static LayoutInflater desktopInflater;
     private static String DragData = "";
+    private static ViewPager WelcomePageAdapter;
 
     public static void initSQL(Context context){
         if(SQL != null)return;
@@ -106,5 +108,13 @@ public class Consts {
 
     public static void setDragData(String dragData) {
         DragData = dragData;
+    }
+
+    public static ViewPager getWelcomePageAdapter() {
+        return WelcomePageAdapter;
+    }
+
+    public static void setWelcomePageAdapter(ViewPager welcomePageAdapter) {
+        WelcomePageAdapter = welcomePageAdapter;
     }
 }

@@ -12,8 +12,8 @@ public class WelcomeFragmentPagerAdapter extends FragmentPagerAdapter {
     private int[] welcomePageLayouts = new int[]{
             R.layout.welcome_page_1,
             R.layout.welcome_page_2,
-            R.layout.welcome_page_3,
-            R.layout.welcome_page_4
+            R.layout.welcome_page_4,
+            R.layout.welcome_page_3
     };
 
     public WelcomeFragmentPagerAdapter(FragmentManager fm) {

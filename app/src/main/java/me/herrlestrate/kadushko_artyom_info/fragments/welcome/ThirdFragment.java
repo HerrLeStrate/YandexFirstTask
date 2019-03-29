@@ -1,10 +1,10 @@
 package me.herrlestrate.kadushko_artyom_info.fragments.welcome;
 
-import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v4.app.Fragment;
+import android.support.v4.view.ViewPager;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -12,30 +12,34 @@ import android.view.ViewGroup;
 import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 
+import me.herrlestrate.kadushko_artyom_info.Consts;
 import me.herrlestrate.kadushko_artyom_info.R;
-import me.herrlestrate.kadushko_artyom_info.WelcomeActivity;
 
 public class ThirdFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         Log.i("WelcomePage","onCreateView thirdFragment");
-        View result = inflater.inflate(R.layout.welcome_page_3,container,false);
-        RelativeLayout relativeLayout = result.findViewById(R.id.welcome_rel3);
-
-        RadioGroup radioGroup = relativeLayout.findViewById(R.id.welcome_radio_group);
-        radioGroup.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
+        final View result = inflater.inflate(R.layout.welcome_page_3,container,false);
+        result.findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onCheckedChanged(RadioGroup group, int checkedId) {
-                switch(checkedId){
-                    case R.id.white_theme:
-                        setTheme(false);
-                        break;
-                    case R.id.dark_theme:
-                        setTheme(true);
-                        break;
-                    default:
-                        setTheme(false);
-                }
+            public void onClick(View v) {
+                Consts.getWelcomePageAdapter().setCurrentItem(Consts.getWelcomePageAdapter().getCurrentItem()+1);
+            }
+        });
+
+        setTheme(false);
+
+        result.findViewById(R.id.radioButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setTheme(false);
+            }
+        });
+
+        result.findViewById(R.id.radioButton2).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setTheme(true);
             }
         });
 
