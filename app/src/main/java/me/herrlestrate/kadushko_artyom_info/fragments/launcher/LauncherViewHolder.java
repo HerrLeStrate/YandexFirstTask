@@ -70,6 +70,7 @@ public class LauncherViewHolder extends RecyclerView.ViewHolder implements View.
                 .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
 
         view.getContext().startActivity(i);
+        Consts.getDesktopPagerAdapter().notifyDataSetChanged();
     }
 
     public boolean showPopUp(View v){

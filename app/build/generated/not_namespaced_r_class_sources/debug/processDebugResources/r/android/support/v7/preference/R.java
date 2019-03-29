@@ -930,10 +930,10 @@ public final class R {
         public static final int abc_toolbar_collapse_description = 0x7f0f0026;
         public static final int expand_button_title = 0x7f0f004e;
         public static final int search_menu_title = 0x7f0f006e;
-        public static final int status_bar_notification_info_overflow = 0x7f0f007c;
-        public static final int summary_collapsed_preference_list = 0x7f0f007d;
-        public static final int v7_preference_off = 0x7f0f0082;
-        public static final int v7_preference_on = 0x7f0f0083;
+        public static final int status_bar_notification_info_overflow = 0x7f0f007d;
+        public static final int summary_collapsed_preference_list = 0x7f0f007e;
+        public static final int v7_preference_off = 0x7f0f0083;
+        public static final int v7_preference_on = 0x7f0f0084;
     }
     public static final class style {
         private style() {}

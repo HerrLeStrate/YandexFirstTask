@@ -131,8 +131,8 @@ public class GridLauncherFragment extends Fragment {
                     @Override
                     public int compare(ResolveInfo o1, ResolveInfo o2) {
                         return Integer.compare(
-                                Consts.get(o1.activityInfo.packageName),
-                                Consts.get(o2.activityInfo.packageName)
+                                Consts.get(o2.activityInfo.packageName),
+                                Consts.get(o1.activityInfo.packageName)
                         );
                     }
                 });

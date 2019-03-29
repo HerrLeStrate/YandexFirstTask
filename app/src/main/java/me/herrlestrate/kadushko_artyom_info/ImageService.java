@@ -3,6 +3,7 @@ package me.herrlestrate.kadushko_artyom_info;
 import android.app.job.JobParameters;
 import android.app.job.JobService;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.util.Log;
@@ -68,13 +69,11 @@ public class ImageService extends JobService {
     }
 
     public static String getURL(){
-        YandexMetrica.reportEvent("Request for new url");
-        String sites[] = {
-                "https://pp.userapi.com/c846216/v846216804/18163f/U6iqXzLTAQo.jpg",
-                "https://loremflickr.com/720/1080",
-                "https://picsum.photos/720/1080/?random"
-        };
-        Random rnd = new Random();
-        return sites[rnd.nextInt(sites.length)];
+        SharedPreferences sharedPreferences =
+                Consts.getActivity().getSharedPreferences("me.herrlestrate.kadushko_artyom_info_preferences",0);
+        int type = Integer.parseInt(sharedPreferences.getString("imageURL","0"));
+        if(type == 0)return "https://loremflickr.com/720/1080";
+        if(type == 0)return "https://picsum.photos/720/1080/?random";
+        return "https://loremflickr.com/720/1080";
     }
 }

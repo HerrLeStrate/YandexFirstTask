@@ -39,12 +39,14 @@ public final class R {
     public static final int mtrl_fab_transformation_sheet_expand_spec=0x7f020009;
   }
   public static final class array {
-    public static final int imageUpdateList=0x7f030000;
-    public static final int imageUpdateListNow=0x7f030001;
-    public static final int imageUpdateValues=0x7f030002;
-    public static final int imageUpdateValuesNow=0x7f030003;
-    public static final int sortMethodList=0x7f030004;
-    public static final int sortMethodValues=0x7f030005;
+    public static final int imageURLList=0x7f030000;
+    public static final int imageURLValues=0x7f030001;
+    public static final int imageUpdateList=0x7f030002;
+    public static final int imageUpdateListNow=0x7f030003;
+    public static final int imageUpdateValues=0x7f030004;
+    public static final int imageUpdateValuesNow=0x7f030005;
+    public static final int sortMethodList=0x7f030006;
+    public static final int sortMethodValues=0x7f030007;
   }
   public static final class attr {
     /**
@@ -5725,17 +5727,18 @@ public final class R {
     public static final int sort_2=0x7f0f0078;
     public static final int sort_3=0x7f0f0079;
     public static final int sort_4=0x7f0f007a;
-    public static final int standartMaket=0x7f0f007b;
-    public static final int status_bar_notification_info_overflow=0x7f0f007c;
-    public static final int summary_collapsed_preference_list=0x7f0f007d;
-    public static final int time_0=0x7f0f007e;
-    public static final int time_1=0x7f0f007f;
-    public static final int time_3=0x7f0f0080;
-    public static final int time_4=0x7f0f0081;
-    public static final int v7_preference_off=0x7f0f0082;
-    public static final int v7_preference_on=0x7f0f0083;
-    public static final int welcome_info=0x7f0f0084;
-    public static final int welcome_page_desc=0x7f0f0085;
+    public static final int src_for_bacground=0x7f0f007b;
+    public static final int standartMaket=0x7f0f007c;
+    public static final int status_bar_notification_info_overflow=0x7f0f007d;
+    public static final int summary_collapsed_preference_list=0x7f0f007e;
+    public static final int time_0=0x7f0f007f;
+    public static final int time_1=0x7f0f0080;
+    public static final int time_3=0x7f0f0081;
+    public static final int time_4=0x7f0f0082;
+    public static final int v7_preference_off=0x7f0f0083;
+    public static final int v7_preference_on=0x7f0f0084;
+    public static final int welcome_info=0x7f0f0085;
+    public static final int welcome_page_desc=0x7f0f0086;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;

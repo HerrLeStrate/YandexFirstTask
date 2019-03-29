@@ -43,4 +43,5 @@
     <string name="default_notification">Оповещение #1</string>
     <string name="notification_with_color_and_icon">Оповещение #2</string>
     <string name="remove_app_from_desktop">Удалить</string>
+    <string name="src_for_bacground">Источник для фона</string>
 </resources>
