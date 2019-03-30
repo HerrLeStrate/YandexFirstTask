@@ -11,7 +11,7 @@ public class ProfileActivity extends Activity {
 
         setTheme(Consts.getTheme(getSharedPreferences("me.herrlestrate.kadushko_artyom_info_preferences",0)));
 
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.profile_layout);
 
     }
 }

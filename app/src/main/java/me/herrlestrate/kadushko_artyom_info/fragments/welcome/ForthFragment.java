@@ -9,6 +9,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.RelativeLayout;
 
@@ -19,7 +20,7 @@ public class ForthFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState){
         Log.i("WelcomePage","onCreateView forthFragment");
-        View result = inflater.inflate(R.layout.welcome_page_4,container,false);
+        final View result = inflater.inflate(R.layout.welcome_page_4,container,false);
         result.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -34,6 +35,7 @@ public class ForthFragment extends Fragment {
         result.findViewById(R.id.radioButton).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ((RadioButton)result.findViewById(R.id.radioButton2)).setChecked(false);
                 setStyle(false);
             }
         });
@@ -41,6 +43,7 @@ public class ForthFragment extends Fragment {
         result.findViewById(R.id.radioButton2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                ((RadioButton)result.findViewById(R.id.radioButton)).setChecked(false);
                 setStyle(true);
             }
         });

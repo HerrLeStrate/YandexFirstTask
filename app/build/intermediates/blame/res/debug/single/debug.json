@@ -56,6 +56,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\6abaf56a0048b7ab79fb4a9ce956ac55\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_welcome_page_4.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout-land\\welcome_page_4.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-xxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
@@ -178,6 +182,10 @@
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_thumb_material.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\phone.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -412,6 +420,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_welcome_page_2.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout-land\\welcome_page_2.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-xxhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
@@ -572,6 +584,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\preference-v7-28.0.0.aar\\f64d7127b896f914cd88c538a5734a12\\res\\layout\\preference_recyclerview.xml"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout_profile_layout.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout\\profile_layout.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\color\\switch_thumb_material_light.xml"
     },
@@ -720,6 +736,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-hdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map_marker.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\map_marker.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-mdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -798,6 +818,10 @@
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-hdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_email_outline.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\email_outline.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
@@ -1118,6 +1142,10 @@
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-hdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout_separator.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout\\separator.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -1720,6 +1748,10 @@
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_welcome_page_3.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout-land\\welcome_page_3.xml"
+    },
+    {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-watch-v20_abc_dialog_material_background.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
@@ -1826,6 +1858,10 @@
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\drawable-hdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_github_circle.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\github_circle.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
@@ -2066,6 +2102,14 @@
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_icon.xml.flat",
         "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\1d9b3bed22e14b84b02b451678f6d7dd\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_vk.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\drawable\\vk.xml"
+    },
+    {
+        "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_welcome_page_1.xml.flat",
+        "source": "F:\\AndroidProjects\\YandexFirstTask\\app\\src\\main\\res\\layout-land\\welcome_page_1.xml"
     },
     {
         "merged": "F:\\AndroidProjects\\YandexFirstTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
