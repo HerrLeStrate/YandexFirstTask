@@ -1140,6 +1140,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable email_outline
+drawable github_circle
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_down_24dp
@@ -1155,6 +1157,7 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable ic_web
+drawable map_marker
 drawable media
 drawable mtrl_snackbar_background
 drawable mtrl_tabs_default_indicator
@@ -1173,11 +1176,13 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable phone
 drawable preference_list_divider_material
 drawable radiogroup
 drawable side_nav_bar
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable vk
 drawable web_browser
 id ALT
 id CTRL
@@ -1216,6 +1221,7 @@ id adjust_width
 id alertTitle
 id all
 id always
+id app_bar
 id async
 id auto
 id barrier
@@ -1232,6 +1238,8 @@ id button2
 id button3
 id button4
 id buttonPanel
+id callHome
+id callMobile
 id cancel_action
 id center
 id center_horizontal
@@ -1282,6 +1290,9 @@ id fixed
 id forever
 id frameLayout
 id ghost_view
+id goToGithub
+id goToMap
+id goToVk
 id gone
 id grid_app_icon
 id grid_app_title
@@ -1300,11 +1311,18 @@ id image
 id imageView
 id imageView2
 id imageView4
-id img
+id imageView5
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivContactItem1
+id ivContactItem2
+id ivContactItem3
+id ivContactItem4
+id ivContactItem5
+id ivContactItem6
+id ivContactItem7
 id labeled
 id largeLabel
 id launcher_container_fragments
@@ -1313,6 +1331,7 @@ id left
 id light
 id line1
 id line3
+id linearLayout
 id linearLayout2
 id linear_app_icon
 id linear_app_title
@@ -1384,6 +1403,8 @@ id seekbar
 id seekbar_value
 id select_dialog_listview
 id selected
+id sendEmail1
+id sendEmail2
 id settings_layout
 id shortcut
 id showCustom
@@ -1424,6 +1445,7 @@ id textView
 id textView3
 id textView4
 id textView5
+id textView_0
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1432,6 +1454,8 @@ id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
+id toolbar_layout
 id top
 id topPanel
 id touch_outside
@@ -1440,7 +1464,13 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
-id txt
+id tvNumber1
+id tvNumber2
+id tvNumber3
+id tvNumber4
+id tvNumber5
+id tvNumber6
+id tvNumber7
 id uniform
 id unlabeled
 id up
@@ -1449,7 +1479,6 @@ id url_url
 id useLogo
 id view_offset_helper
 id visible
-id welcome_rel3
 id welcome_rel4
 id welcome_view_pager
 id wide
@@ -1568,9 +1597,11 @@ layout preference_widget_seekbar
 layout preference_widget_seekbar_material
 layout preference_widget_switch
 layout preference_widget_switch_compat
+layout profile_layout
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
+layout separator
 layout support_simple_spinner_dropdown_item
 layout table_layout_item
 layout url_popup
